@@ -1,0 +1,56 @@
+---
+title: &TITLE Dora Banfic
+last: Banfic
+first: Dora
+subtitle: "Master Thesis Student"
+people_group: "master-thesis"
+email: "dora.banfic@gmail.com"
+education:
+  - MA Medicine | University of Zurich <br> BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:dora.banfic@gmail.com
+---
+
+<hr>
+
+::: {#about}
+Dora completed her Matura with a focus on biology and chemistry at MNG Rämibühl in Zurich. She has recently finished her Bachelor’s degree in Human Medicine at ETH Zurich (graduated in May 2025) and will continue with the Master’s program in Human Medicine at the University of Zurich starting in September 2025.
+
+As a medical master thesis student, she is working on a systematic review that compares drug effects observed in non-human primates (NHPs) and rodents across selected neurological and psychiatric diseases. The project aims to evaluate the translational relevance of animal models and may help identify where NHP studies can be replaced in future drug development research.
+
+Outside of academics, she is most at home in the mountains – skiing, mountaineering, climbing, and mountain biking are her favorite ways to recharge. She is also a passionate musician, often found singing and playing piano (ideally at the same time). With a strong interest in teaching, she has led exercise sessions in chemistry and statistics at ETH Zurich, enjoying the opportunity to learn by teaching. Always curious, she loves discovering new places and being in nature.
+
+She joined the STRIDE-Lab as a medical master student in February 2025.
+
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

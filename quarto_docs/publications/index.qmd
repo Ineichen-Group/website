@@ -1,0 +1,35 @@
+---
+title: "Publications"
+image: "../images/pubs.png"
+description: "Check out our latest publications."
+listing:
+  - id: pubs_original
+    template: ../_ejs/publications.ejs
+    contents: ../publications/**/*.qmd
+    sort: "pub_number asc"
+    page-size: 30
+    filter-ui: true
+    include:
+      publication_type: "O"
+    fields: [image, pub_number, title, publication, author, url_source]
+  - id: pubs_reviews
+    template: ../_ejs/publications.ejs
+    contents: ../publications/**/*.qmd
+    sort: "pub_number asc"
+    page-size: 30
+    filter-ui: true
+    include:
+      publication_type: "R"
+    fields: [image, pub_number, title, publication, author, url_source]
+page-layout: full
+---
+
+<hr>
+
+# Original Publications
+::: {#pubs_original}
+:::
+
+# Reviews
+::: {#pubs_reviews}
+:::

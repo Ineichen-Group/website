@@ -1,0 +1,12 @@
+---         
+title: "New Prospects for Ultra-High-Field Magnetic Resonance Imaging in Multiple Sclerosis"
+date: 2022-05-01
+author: ["Ineichen BV", "Beck ES", "Piccirelli M", "Reich DS"]
+publication: "Investigative Radiology, 56(11):773-84. 2021."
+publication_type: "R"
+categories: ["MRI"]
+url_source: https://doi.org/10.1097/rli.0000000000000804. 
+year: 2021
+image: featured.jpeg
+pub_number: 8
+---

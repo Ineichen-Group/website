@@ -1,0 +1,12 @@
+---
+title: "Remyelination promoting therapies in multiple sclerosis animal models: a systematic review and meta-analysis."
+date: 2022-05-01
+author: ["Hooijmans CR", "Hlavica M", "Schuler FAF", "Good N", "Good A", "Baumgartner L", "Galeno G", "Schneider MP", "Jung T", "de Vries R", "Ineichen BV"]
+publication: "Scientific reports, 9(1):822. Epub 20190129. 2019."
+publication_type: "O"
+categories: ["SR", "Translation"]
+url_source: https://doi.org/10.1038/s41598-018-35734-4. 
+year: 2019
+image: featured.jpeg
+pub_number: 25
+---

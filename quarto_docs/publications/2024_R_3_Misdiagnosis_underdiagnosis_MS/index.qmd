@@ -1,0 +1,13 @@
+---
+title: "Misdiagnosis and underdiagnosis of multiple sclerosis: A systematic review and meta-analysis."
+date: 2025-09-17
+author: ["Zürrer WE", "Cannon AE", "Ilchenko D", "Gaitán MI", "Granberg T", "Piehl F", "Solomon AJ", "Ineichen BV"]
+publication: "Mult Scler 30(11-12): 1409-1422"
+publication_type: "R"
+categories: ["SR","MRI"]
+url_source: https://doi.org/10.1177/13524585241274527
+year: 2024
+image: featured.jpeg
+pub_number: 3
+---
+

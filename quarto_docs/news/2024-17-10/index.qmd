@@ -1,0 +1,13 @@
+---
+title: "New paper in EMNLP!"
+date: '2024-10-17'
+description: 'Our new paper on using large language models to mine large volumes of clinical trial data
+is now published. These models enable large-scale assessments of clinical trials, akin to
+a "data ocean" approach used in genomics, but specifically for clinical trial data!
+
+As always outstanding work, Simona!
+
+Read the full article here: [https://aclanthology.org/2024.emnlp-main.1050/](https://aclanthology.org/2024.emnlp-main.1050/)
+'
+---
+

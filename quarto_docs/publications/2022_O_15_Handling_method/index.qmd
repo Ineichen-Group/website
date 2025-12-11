@@ -1,0 +1,12 @@
+---
+title: "Handling method affects measures of anxiety, but not chronic stress in mice."
+date: 2022-05-01
+author: ["Novak J", "Jaric I", "Rosso M", "Rufener R", "Touma C", "Würbel H"]
+publication: "Sci Rep 12, 20938 (2022)"
+publication_type: "O"
+categories: ["Translation"]
+url_source: https://doi.org/10.1038/s41598-022-25090-9
+year: 2022
+image: featured.jpeg
+pub_number: 15
+---

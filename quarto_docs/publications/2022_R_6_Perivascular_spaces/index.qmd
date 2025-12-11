@@ -1,0 +1,12 @@
+---        
+title: "Perivascular spaces and their role in neuroinflammation."
+date: 2022-05-01
+author: ["Ineichen BV", "Okar SV", "Proulx ST", "Engelhardt B", "Lassmann H", "Reich DS"]
+publication: "Neuron,110(21):3566-81. 2022."
+publication_type: "R"
+categories: ["MRI", "Translation"]
+url_source: https://doi.org/10.1016/j.neuron.2022.10.024
+year: 2022
+image: featured.jpeg
+pub_number: 6
+---

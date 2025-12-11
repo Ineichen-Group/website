@@ -1,0 +1,12 @@
+---
+title: "Magnetic resonance imaging in multiple sclerosis animal models: A systematic review, meta-analysis, and white paper."
+date: 2022-05-01
+author: ["Ineichen BV", "Sati P", "Granberg T", "Absinta M", "Lee NJ", "Lefeuvre JA", "Reich DS"]
+publication: "NeuroImage Clinical, 28:102371. Epub 20200802. 2020."
+publication_type: "O"
+categories: ["MRI", "SR", "Translation"]
+url_source: https://doi.org/10.1016/j.nicl.2020.102371
+year: 2020
+image: featured.jpeg
+pub_number: 22
+---

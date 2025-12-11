@@ -1,0 +1,25 @@
+---
+title: "Neuroimaging"
+alias: &ALIAS MRI
+image: featured_v2_blue.png
+short_text: "Our research is focused on developing advanced MRI techniques that provide a non-invasive look into pathological tissue processes."
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: ../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+---
+
+<!-- ![](featured.png){width="20%"} -->
+
+Magnetic Resonance Imaging (MRI) often lacks the specificity needed to accurately infer tissue pathology. Our research is focused on developing advanced MRI techniques that provide a non-invasive look into pathological tissue processes. We have a particular interest in multiple sclerosis, which is characterized by highly variable tissue pathology.
+
+## Related Publications
+
+::: {#pubs}
+:::

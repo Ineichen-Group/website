@@ -1,0 +1,12 @@
+---
+title: "Auto-STEED: A data mining tool for automated extraction of experimental parameters and risk of bias items from in vivo publications"
+date: 2023-04-01
+author: ["Zürrer WE", "Cannon AE", "Ewing E", "Brüschweiler D", "Bugajska J", "Hild BF","Rosso M","Reich DS","Ineichen BV"]
+publication: "biorxiv"
+publication_type: "O"
+categories: ["SR", "DS"]
+url_source: https://europepmc.org/article/PPR/PPR651146
+year: 2023
+image: featured.jpeg
+pub_number: 12
+---

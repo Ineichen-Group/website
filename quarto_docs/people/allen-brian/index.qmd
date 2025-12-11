@@ -1,0 +1,55 @@
+---
+title: &TITLE Brian Allen
+last: Allen
+first: Brian
+subtitle: "Master Thesis Student"
+people_group: "master-thesis"
+email: "allen.brian@hotmail.com"
+education:
+  - MA Medicine | Università della Svizzera italiana  <br> BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:allen.brian@hotmail.com 
+---
+
+<hr>
+
+::: {#about}
+Brian Allen, 24, holds a bachelor's degree in human medicine from the ETH Zurich and is currently pursuing a master's degree in medicine at the Università della Svizzera italiana in Lugano.
+
+Brian's academic path led him to his first research experience at Balgrist Research Campus, where he worked as a research assistant in the Spine Biomechanics Laboratory. This position provided him with valuable insight into the development of innovative techniques in spine surgery and fuelled his growing interest in the practical applications of medical research.
+
+At the moment Brian is working on his Master's thesis at the Centre for Reproducible Science in Zurich.
+
+In addition to his academic and professional pursuits, Brian has a passion for sport and enjoys exploring new cultures and travelling. From hiking and jogging along the lakeside in Lugano to skiing in the winter, he embraces an active lifestyle and finds joy in connecting with diverse experiences around the world.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

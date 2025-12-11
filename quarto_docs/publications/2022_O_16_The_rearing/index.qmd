@@ -1,0 +1,12 @@
+---
+title: "The rearing environment persistently modulates mouse phenotypes from the molecular to the behavioural level"
+date: 2022-05-01
+author: ["Jaric I", "Voelkl B", "Clerc M", "Schmid M", "Novak J", "Rosso M", "Rufener R", "Kortzfleisch V", "Richter S", "Buettner M", "Bleich A", "Amrein I", "Wolfer D", "Touma C", "Sunagawa S", "Würbel H"]
+publication: "PLoS biology 20.10 (2022): e3001837"
+publication_type: "O"
+categories: ["Translation"]
+url_source: https://doi.org/10.1371/journal.pbio.3001837
+year: 2022
+image: featured.jpeg
+pub_number: 16
+---

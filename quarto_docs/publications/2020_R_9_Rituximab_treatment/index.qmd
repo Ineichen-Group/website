@@ -1,0 +1,13 @@
+---        
+title: "Rituximab treatment for multiple sclerosis."
+date: 2022-05-01
+author: ["Ineichen BV", "Moridi T", "Granberg T", "Piehl F"]
+publication: "Multiple sclerosis, 26(2):137-52. 2020."
+publication_type: "R"
+categories: ["Translation"]
+url_source: https://doi.org/10.1177/1352458519858604. 
+year: 2020
+image: featured.jpeg
+pub_number: 9
+---
+

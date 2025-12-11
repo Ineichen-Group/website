@@ -1,0 +1,56 @@
+---
+title: &TITLE Bernard Hild
+last: Hild
+first: Bernard
+subtitle: "Master Thesis Student"
+people_group: "alumni"
+email: "bernardfriedrich.hild@uzh.ch"
+education:
+  - MA Medicine | University of Zurich  <br> BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:bernardfriedrich.hild@uzh.ch 
+---
+
+<hr>
+
+::: {#about}
+Bernard Hild, having recently completed his pre-clinical years of medicine at ETH Zürich, is now continuing his Master degree at the University of Zurich.
+
+His love for all things related to medicine has led him into diverse settings. Whether it is engaging directly with patients as a nurse at Stadtspital Waid, providing administrative support to the University Hospital during the Covid pandemic, or delving into medical research at the STRIDE-Lab of the University of Zurich. In his projects, Bernard focuses on meta science aspects of evidence synthesis. More concretely, he is assessing a variety of quality aspects of published animal systematic reviews, including the development of methods to automatically mine such reviews to assess their quality and distribution over a larger scope.
+
+When he is not in the lab or lecture hall, you will likely find Bernard hiking with his golden retriever along Switzerland's breathtaking trails, embarking on a road trip to explore quaint European cities, or (mostly!) gracefully gliding across the ballroom dancefloor. Feel free to interrupt him for a coffee break, to discuss a thought-provoking systematic review, or to admire a particularly striking H&E slide.
+
+Bernard has joined the STRIDE-lab as research assistant in February 2023.
+
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

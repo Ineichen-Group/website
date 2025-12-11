@@ -1,0 +1,12 @@
+---
+title: "Neurological manifestations of coronavirus infections - a systematic review."
+date: 2022-05-01
+author: ["Almqvist J", "Granberg T", "Tzortzakakis A", "Klironomos S", "Kollia E", "Öhberg C", "Martin R", "Piehl F", "Ouellette R", "Ineichen BV"]
+publication: "Annals of clinical and translational neurology, 7(10):2057-71. Epub 20200827. 2020."
+publication_type: "O"
+categories: ["SR"]
+url_source: https://doi.org/10.1002/acn3.51166. 
+year: 2020
+image: featured.jpeg
+pub_number: 21
+---

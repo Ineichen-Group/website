@@ -1,0 +1,8 @@
+---
+title: "New paper out in Nature Reviews Methods Primer"
+date: '2024-10-03'
+description: "This Primer presents guidance for conducting a rigorous systematic review with or without meta-analysis of preclinical studies including animal and in vitro studies. It also discusses the limitations of systematic reviews and outlines current developments such as systematic review automation. By following this Primer, researchers can ensure the rigour and usefulness of their systematic reviews, ultimately benefiting decision-making and research outcomes in preclinical research. 
+
+
+Check it out here: [https://doi.org/10.1038/s43586-024-00347-x](https://doi.org/10.1038/s43586-024-00347-x)"
+---

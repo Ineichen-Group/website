@@ -1,0 +1,13 @@
+---
+title: "NeuroTrialNER: An Annotated Corpus for Neurological Diseases and Therapies in Clinical Trial Registries"
+date: 2025-09-25
+author: ["Doneva SE", "Ellendorff TR", "Sick B", "Goldman JP", "Cannon AE", "Schneider G", "Ineichen BV"]
+publication: "EMNLP (2024)"
+publication_type: "O"
+categories: ["SR"]
+url_source: https://doi.org/10.18653/v1/2024.emnlp-main.1050
+year: 2024
+image: featured.jpg
+pub_number: 4
+---
+

@@ -1,0 +1,50 @@
+---
+title: &TITLE Jacqueline Dort
+last: Dort
+first: Jacqueline
+subtitle: "Master Thesis Student"
+people_group: "master-thesis"
+email: "j_dort@outlook.com"
+education:
+  - MA Medicine | University of Zurich <br> BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.jpg
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:j_dort@outlook.com
+---
+
+<hr>
+
+::: {#about}
+TBD
+
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

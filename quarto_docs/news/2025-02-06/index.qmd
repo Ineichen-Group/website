@@ -1,0 +1,31 @@
+---
+title: "Celebrating UZH 3R Award 2024 at Sparkling Research"
+date: "2025-02-06"
+description: ""
+---
+
+![Petra Seebeck, Benjamin Ineichen and STRIDE-Lab members Vera Bernhard and Hanna Hubarava (from left). *Image credit: Seraina Boner*](/images/news/3R_UZH_award.jpg)
+
+STRIDE-lab was officially presented with the UZH 3R Award 2024 at the Sparkling Research 2025 event, celebrating outstanding research and innovation at the University of Zurich. The award recognizes our work on improving the transferability of animal research findings to human applications through systematic reviews and AI-driven automation. We are honored to receive this award alongside Dr. Petra Seebeck, who was recognized for her contributions to advancing surgical training for procedures on rodents.
+
+Read more about the Sparkling Research event in this [UZH News article](https://www.news.uzh.ch/en/articles/news/2025/sparkling-research.html).
+
+Learn more about our awarded work in this [UZH News article](https://www.news.uzh.ch/en/articles/news/2024/animal-research.html).
+
+### Watch our 3R Award Video:
+
+<!--Note: Yes, injecting raw html is ugly but this is the only way the iframe stays at 100% width and corresponding height -->
+
+```{=html}
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+    <iframe 
+        src="https://www.youtube.com/embed/GGJL3QHyn88?si=X2xUWMtcOG08AHk0" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+</div>
+```

@@ -1,0 +1,12 @@
+---
+title: "Virchow-Robin spaces are a marker for arterial disease in multiple sclerosis."
+date: 2022-05-01
+author: ["Ineichen BV", "Cananau C", "Plattén M", "Ouellette R", "Moridi T", "Frauenknecht KBM", "Okar SV", "Kulcsar Z", "Kockum I", "Piehl F", "Reich DS", "Granberg T. Dilate"]
+publication: "EBioMedicine, 92:104631. Epub 20230528. 2023."
+publication_type: "O"
+categories: ["MRI"]
+url_source: https://doi.org/10.1016/j.ebiom.2023.104631 
+year: 2023
+image: featured.jpeg
+pub_number: 10
+---

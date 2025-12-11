@@ -1,0 +1,13 @@
+---
+title: "Which experimental factors govern successful animal-to-human translation in multiple sclerosis drug development? A systematic review and meta-analysis."
+date: 2025-09-17
+author: ["Berg I", "Härvelid P", "Zürrer WE", "Rosso M", "Reich DS", "Ineichen BV"]
+publication: "eBioMedicine 110: 105434"
+publication_type: "O"
+categories: ["Translation", "SR"]
+url_source: https://doi.org/10.1016/j.ebiom.2024.105434
+year: 2024
+image: featured.jpg
+pub_number: 2
+---
+

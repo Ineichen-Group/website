@@ -1,0 +1,50 @@
+---
+title: Marianna Rosso
+last: Rosso
+first: Marianna
+author_id: &TITLE Rosso M
+subtitle: "Research Scientist"
+people_group: "postdoc"
+email: "marianna.rosso@uzh.ch"
+education:
+  - Ph.D. Animal Welfare | University of Bern <br> M.Sc. Ecology and Evolution | University of Bern <br> B.Sc. Biology | University of Turin
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:marianna.rosso@uzh.ch 
+---
+
+<hr>
+
+::: {#about}
+Marianna Rosso completed her studies in Ecology and Evolution at the University of Bern in 2018. She then joined Prof Hanno Würbel’s laboratory at the Animal Welfare Division in Bern to address the validity of rodent behavioural tests commonly used in neuroscience and the drug development process. Here, she deepened her expertise in systematic reviews, employing systematic review methodologies and leveraging big data modelling as tools for the refinement and replacement of animal studies. In 2022, she joined the newly established group led by Dr. Benjamin Ineichen at the Center for Reproducible Science at the University of Zurich. There, she focuses on facilitating and implementing evidence synthesis for researchers in animal studies as a 3Rs instrument. Additionally, she is dedicated to disseminating her work and training young researchers in alternative methods for animal experimentation.
+
+## Education
+
+{{< meta education >}}
+
+<br>
+:::
+
+## Publications
+
+::: {#pubs}
+:::

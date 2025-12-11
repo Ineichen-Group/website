@@ -1,0 +1,55 @@
+---
+title: Simona Doneva
+last: Doneva
+first: Simona
+author_id: &TITLE Doneva SE
+subtitle: "PhD Student"
+people_group: "phdstudent"
+email: "simona.doneva@uzh.ch"
+education:
+  - M.Sc. Business Informatics | University of Mannheim <br> B.Sc. Business Administration | University of Mannheim
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: simona.doneva@uzh.ch 
+---
+
+<hr>
+
+::: {#about}
+
+Simona pursued her higher education at the University of Mannheim in Germany, where she earned a Bachelor of Science (BSc) in Business Administration. It was during this period that she developed a keen interest in data and computer science. Her curiosity led her to further her studies by obtaining a Master of Science (MSc) in Business Informatics, specializing in Data and Web Science. Her academic journey was further enriched by exchange semesters in Singapore and Shanghai, hands-on experience as a working student in two technology groups at SAP, and a Master Thesis internship at the Bosch Center for AI in Stuttgart.
+
+Since April 2023, Simona has been pursuing her PhD at STRIDE-Lab. Her research is primary focused on harnessing natural language processing techniques to automate the extraction of data from scientific literature, and streamline evidence synthesis. She is driven by her dedication to advancing technology and research, with a clear focus on translating theoretical knowledge into practical applications.
+
+Outside her professional commitments, Simona nurtures a passion for art and travel.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

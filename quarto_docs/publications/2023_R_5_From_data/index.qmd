@@ -1,0 +1,12 @@
+---      
+title: "From data deluge to publomics: How AI can transform animal research."
+date: 2022-05-01
+author: ["Ineichen BV", "Rosso M", "Macleod MR"]
+publication: "Lab Animal (NY), 52(10):213-214. 2023."
+publication_type: "R"
+categories: ["Translation", "SR", "DS"]
+url_source: https://doi.org/10.1038/s41684-023-01256-4
+year: 2023
+image: featured.jpeg
+pub_number: 5
+---

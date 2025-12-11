@@ -1,0 +1,12 @@
+---
+title: "STRIDE-Lab wins the University of Zurich 3R Awards 2024"
+date: '2024-10-15'
+description: "
+We are honoured to receive the UZH 3R Award, which recognizes our commitment to fostering the principles of
+reduction, refinement, and replacement in research. This award strengthens our dedication to promoting 3R
+at the University of Zurich and extending their impact to the broader scientific community.
+
+
+[https://www.tierschutz.uzh.ch/en/UZH-3R-Award1.html](https://www.tierschutz.uzh.ch/en/UZH-3R-Award1.html)"
+---
+

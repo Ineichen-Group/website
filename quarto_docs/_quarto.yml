@@ -1,0 +1,67 @@
+project:
+  type: website
+
+website:
+  title: "STRIDE-Lab"
+  site-url: "https://stride-lab.pages.uzh.ch/"
+  favicon: images/fav_icon_stride.png
+  image: images/preview.png
+  twitter-card:
+    image: "https://en.wikipedia.org/wiki/PNG#/media/File:PNG_transparency_demonstration_1.png"
+  open-graph:
+    locale: en_EN
+    site-name: STRIDE-Lab
+    description: "STRIDE-Lab at the University of Zurich is dedicated to bridging preclinical and clinical research gaps, using data science and evidence synthesis."
+    image: "https://en.wikipedia.org/wiki/PNG#/media/File:PNG_transparency_demonstration_1.png"
+  navbar:
+    search: true
+    title: false
+    logo: images/stride_lab_logo_transparent.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about/index.qmd
+        text: About
+      - href: people/index.qmd
+        text: People
+      - href: publications/index.qmd
+        text: Publications
+      - href: news/index.qmd
+        text: News
+      - href: events/index.qmd
+        text: Events
+      - href: join.qmd
+        text: Join
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/Ineichen-Group
+        aria-label: GitHub
+      - icon: twitter
+        href: https://twitter.com/STRIDELab_ch
+        aria-label: Twitter
+  page-footer: 
+    background: "#F6F5F3"
+    left:
+      - text: Developed by Simona E. Doneva
+        href: people/doneva-simona/index.qmd
+    center: © 2024  &middot; Made with
+      [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/).
+       Source code on
+      [![](https://images.ctfassets.net/xz1dnu24egyd/1hnQd13UBU7n5V0RsJcbP3/769692e40a6d528e334b84f079c1f577/gitlab-logo-100.png){fig-alt="Git" width=65px}](https://gitlab.uzh.ch/stride-lab/website) 
+    right:
+      - text: Center for Reproducible Science, University of Zurich
+        href: https://www.crs.uzh.ch/en.html
+
+format:
+  html:
+    includes:
+      in-header: header.html
+    theme: 
+      - styles.css
+      - cosmo
+    mainfont: Montserrat, sans-serif
+    toc: true
+
+editor: visual

@@ -1,0 +1,9 @@
+---
+title: "Welcome Hanna and Vera!"
+date: '2024-03-04'
+description: "Two new students join our lab from the computational linguistics department. Welcome onboard!"
+---
+
+You can learn more about them in the [People page](<https://stride-lab.pages.uzh.ch/website/people/>).
+
+![](images/avatar.png){width="371"}

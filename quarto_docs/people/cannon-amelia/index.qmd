@@ -1,0 +1,56 @@
+---
+title: Amelia Cannon
+last: Cannon
+first: Amelia
+author_id: &TITLE Cannon AE
+subtitle: "Master Thesis Student"
+people_group: "master-thesis"
+email: "ameliaelaine.cannon@gmail.com"
+education:
+  - MA Medicine | University of Zurich  <br> BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ameliaelaine.cannon@gmail.com 
+---
+
+<hr>
+
+::: {#about}
+Amelia Cannon, 21, holds a Bachelor's degree in Human Medicine from the ETH Zurich and is currently on a gap year before continuing her medical education at the University of Zurich.
+
+Her academic journey has sparked a strong interest in translational research in neurological diseases, with a focus on imaging techniques and the intersection of medicine and computational research.
+
+Amelia has worked on a variety of systematic revies, encompassing diverse topics such as motoneuron disease animal models and multiple sclerosis (MS) misdiagnosis. During a research exchange with a collaborator at the National Institutes of Health (NIH) in the USA (Prof. Daniel S. Reich), Amelia delved into advanced neuroimaging techniques in MS. Concretely, she is assessing the clinical relevance of enlarged perivascular spaces (EPVS) as a potential imaging biomarker in multiple sclerosis, their temporal evolution and assessing the sensitivity of higher field strength MRI to detect them. Additionally, she is also contributing to a project aimed at automatically extracting key information from abstracts in the field of animal research for neurological diseases.
+
+Outside of her professional pursuits, Amelia enjoys immersing herself in new experiences, from moving abroad for internships to solo travels across Southeast Asia, finding joy in broadening her horizons. Amelia has joined the STRIDE-lab as research assistant in September 2022.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

@@ -1,0 +1,12 @@
+---
+title: "Myelin bilayer mapping in the human brain in vivo."
+date: 2022-05-01
+author: ["Baadsvik EL", "Weiger M", "Froidevaux R", "Schildknecht CM", "Ineichen BV", "Pruessmann KP."]
+publication: "Magnetic resonance in medicine. Online ahead of print. 2024."
+publication_type: "O"
+categories: ["MRI"]
+url_source: https://doi.org/10.1002/mrm.29998
+year: 2024
+image: featured.jpeg
+pub_number: 6
+---

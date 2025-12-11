@@ -1,0 +1,49 @@
+---
+title: &TITLE Vera Bernhard
+last: Bernhard
+first: Vera
+subtitle: "Data Scientist"
+people_group: "other-research-personell"
+email: "veralara.bernhard@uzh.ch"
+education:
+  - M.A. Computational Linguistics & Language Technology and Informatics | University of Zurich <br> B.A. Computational Linguistics & Language Technology and Comparative Linguistics | University of Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:veralara.bernhard@uzh.ch 
+---
+
+<hr>
+
+::: {#about}
+Vera is currently pursuing her Master’s degree in Computational Linguistics & Language Technology and Informatics at University of Zurich. Her fascination lies in leveraging NLP techniques and large language models to make vast amounts of data accessible. Fueled by her passion for fostering interdisciplinary exchange, she has joined the STRIDE lab’s efforts in automatically classifying and detecting entities in biomedical text, all in pursuit of creating tools for living evidence summaries. Beyond tackling machine learning problems, Vera enjoys hosting board game evenings, finding her creative outlet in tap dance improvisation, and has a soft spot for solving crosswords.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

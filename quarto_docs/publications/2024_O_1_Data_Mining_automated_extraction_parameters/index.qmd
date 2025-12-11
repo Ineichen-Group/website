@@ -1,0 +1,13 @@
+---
+title: "STEED: A data mining tool for automated extraction of experimental parameters and risk of bias items from in vivo publications."
+date: 2025-09-17
+author: ["Zurrer WE", "Cannon AE", "Ewing E", "Brüschweiler D", "Bugajska J", "Hild BF", "Rosso M", "Reich DS", "Ineichen BV"]
+publication: "PLoS One 19(11): e0311358"
+publication_type: "O"
+categories: ["DS"]
+url_source: https://doi.org/10.1371/journal.pone.0311358
+year: 2024
+image: featured.jpg
+pub_number: 1
+---
+

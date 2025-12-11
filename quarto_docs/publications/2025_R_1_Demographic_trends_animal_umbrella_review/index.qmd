@@ -1,0 +1,13 @@
+---
+title: "Quality, topics, and demographic trends of animal systematic reviews - an umbrella review."
+date: 2025-09-17
+author: ["Hild BF", "Brüschweiler D", "Hild STK", "Bugajska J", "von Wyl V", "Rosso M", "Wever KE", "Furrer E", "Ineichen BV"]
+publication: "J Transl Med 23(1): 21"
+publication_type: "R"
+categories: ["SR","Translation"]
+url_source: https://doi.org/10.1186/s12967-024-05992-0
+year: 2025
+image: featured.jpg
+pub_number: 1
+---
+

@@ -1,0 +1,27 @@
+---
+title: Events
+description: "Join us on one of our events, or learn about our participations."
+image: "../images/events.png"
+listing:
+  - id: active_events
+    include: 
+        event_status: "active"
+    type: grid
+    grid-columns: 3
+    template: ../_ejs/event-box.ejs
+  - id: past_events
+    include: 
+        event_status: "past"
+    type: grid
+    grid-columns: 3
+    template: ../_ejs/event-box.ejs
+page-layout: full
+---
+
+## Upcoming Events
+::: {#active_events}
+:::
+
+## Past Events
+::: {#past_events}
+:::

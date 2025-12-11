@@ -1,0 +1,51 @@
+---
+title: &TITLE Johann Liesner
+last: Liesner
+first: Johann
+subtitle: "MD Candidate"
+people_group: "medicaldoctoralstudent"
+email: "johann.liesner@gmx.de"
+education:
+  - MA Medicine | Università della Svizzera italiana  <br> BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:johann.liesner@gmx.de 
+---
+
+<hr>
+
+::: {#about}
+Johann Liesner's academic journey began with his Bachelor of Medicine at ETH Zurich, where his fervent interest in science and research flourished. Strengthening his passion, Johann completed an internship in the field of neuroscience at the Charité Berlin. Currently pursuing his Master of Medicine at the Università della Svizzera Italiana in Lugano, Johann continues to expand his expertise. At STRIDE-Lab he is evaluating the significance of systematic reviews in changing policy of the European Food and Safety Authority.
+
+Outside of his studies, he finds joy in gym sessions, guitar practice, and spending quality time with friends.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

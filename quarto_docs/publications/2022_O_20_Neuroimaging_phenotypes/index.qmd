@@ -1,0 +1,12 @@
+---
+title: "Neuroimaging phenotypes of CSF1R-related leukoencephalopathy: Systematic review, meta-analysis, and imaging recommendations."
+date: 2022-05-01
+author: ["Mickeviciute GC", "Valiuskyte M", "Plattén M", "Wszolek ZK", "Andersen O", "Danylaité Karrenbauer V", "Ineichen BV*", "Granberg T*"]
+publication: "Journal of internal medicine, 291(3):269-82. Epub 20211222. 2022."
+publication_type: O
+categories: ["MRI", "SR"]
+url_source: https://doi.org/10.1111/joim.13420 
+year: 2022
+image: featured.jpeg
+pub_number: 20
+---

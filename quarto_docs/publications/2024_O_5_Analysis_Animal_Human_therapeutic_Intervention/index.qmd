@@ -1,0 +1,13 @@
+---
+title: "Analysis of animal-to-human translation shows that only 5% of animal-tested therapeutic interventions obtain regulatory approval for human applications"
+date: 2025-09-16
+author: ["Ineichen BV", "Furrer E", "Grüninger SL", "Zürrer WE", "Macleod MR"]
+publication: "PLoS Biol 22(6):e3002667"
+publication_type: "O"
+categories: ["Translation", "SR"]
+url_source: https://doi.org/10.1371/journal.pbio.3002667
+year: 2024
+image: featured.jpg
+pub_number: 5
+---
+

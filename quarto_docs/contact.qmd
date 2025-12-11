@@ -1,0 +1,25 @@
+---
+title: "Benjamin Victor Ineichen"
+about: 
+  id: contact
+  template: solana
+  image-shape: round
+  image: people/ineichen-benjamin-victor/avatar.png
+# page-layout: full
+---
+
+::: {#contact}
+#### {{< fa envelope >}}   [benjamin.ineichen@unibe.ch](mailto:benjamin.ineichen@unibe.ch)
+
+#### {{< fa map-location-dot >}}   sitem-insel, Freiburgstrasse 3, 3010 Bern, Switzerland.
+:::
+
+```{r}
+#| echo: false
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lat=46.94772, lng=7.42767, popup="sitem-insel")
+```
+
+<br>

@@ -1,0 +1,60 @@
+---
+title: &TITLE Mia Schuster
+last: Schuster
+first: Mia
+subtitle: "Research Assistant"
+people_group: "other-research-personell"
+email: "mia.schuster@uzh.ch"
+education:
+  - BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:mia.schuster@uzh.ch
+---
+
+<hr>
+
+::: {#about}
+Mia is currently pursuing her Bachelor's degree in Medicine at ETH Zurich.
+
+She is contributing to two projects in the field of translational medicine, aiming to reduce and refine the use of animal studies in research. 
+The first project investigates whether the effect sizes of drugs tested in animal models correlate with those observed in human patients and examines the number of animal studies conducted following FDA approval.
+In the second project, Mia is working alongside Enrico Meier to compile and analyse animal models used in neurological disease research, with the goal of assessing how closely these models reflect human diseases.
+
+Through her work at the lab, Mia is enjoying the opportunity to deepen her understanding of research methodologies and to participate in inspiring initiatives related to animal welfre such as the 3R Day.
+
+Outside the lab, Mia is passionate about traveling and discovering new experiences. She also enjoys playing tennis and a variety of other sports.
+Mia joined the Stride Lab in March 2025 as a research assistant.
+
+
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

@@ -1,0 +1,12 @@
+---
+title: "Structural magnetic resonance imaging findings and histopathological correlations in motor neuron diseases-A systematic review and meta-analysis"
+date: 2022-05-01
+author: ["Zejlon C", "Nakhostin D", "Winklhofer S", "Pangalu A", "Kulcsar Z", "Lewandowski S", "Finnsson J", "Piehl F", "Ingre C", "Granberg T*", "Ineichen BV*"]
+publication: "Frontiers in Neurology, 13:947347. Epub 20220830. 2022."
+publication_type: "O"
+categories: ["MRI", "SR"]
+url_source: https://doi.org/10.3389/fneur.2022.947347
+year: 2022
+image: featured.jpeg
+pub_number: 17
+---

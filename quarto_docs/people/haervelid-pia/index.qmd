@@ -1,0 +1,57 @@
+---
+title: Pia Härvelid
+last: Härvelid
+first: Pia
+author_id: &TITLE Haervelid P
+subtitle: "Research Assistant"
+people_group: "research-assistant"
+email: "haervp@usi.ch"
+education:
+  - MA Medicine | Università della Svizzera italiana  <br> BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:haervp@usi.ch 
+---
+
+<hr>
+
+::: {#about}
+Pia is currently pursuing her Master's degree in Medicine at the Università della Svizzera italiana in Lugano, having completed her bachelor's degree at ETH Zurich in 2023. 
+
+Presently, Pia is actively engaged in two projects. One project is trying to generate an algorithm to automatically extract key data from papers in animal research for neurological diseases. While the other project is a continuation of her work during the research internship delving specifically into the multiple sclerosis drug development translation. Concretely, she is looking into the rationale of researchers testing already human-approved drugs in animals. She is dedicated to bridging the gap between research and clinical application.
+
+Outside of her academic and professional pursuits, Pia finds inspiration in literature, immersing herself in stories. Embracing the natural beauty surrounding Lugano, Pia enjoys hiking adventures, savouring the serenity of the outdoors. Her indulgence in chocolate adds a touch of pleasure to her daily routine.
+
+Pia has absolved a research internship at the STRIDE-lab in Summer 2023 and has afterwards joined the lab as research assistant.
+
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

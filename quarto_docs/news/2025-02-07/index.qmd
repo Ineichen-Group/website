@@ -1,0 +1,36 @@
+---
+title: "3Rs Award Videos Released"
+date: "2025-02-07"
+description: "Our research, recognized with the 3RCC’s 3Rs Award 2023, is featured in three short videos produced by the Swiss 3R Competence Centre (3RCC). Check them out to learn more about our work."
+---
+#### Part 1:
+<iframe 
+    src="https://youtube.com/embed/A69OasPBvWo?si=u9hIGB0aUzcE9r9I" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen
+></iframe>
+
+#### Part 2:
+<iframe 
+    src="https://www.youtube.com/embed/u6FNc9AKIsc" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen
+></iframe>
+
+
+#### Part 3:
+<iframe 
+    src="https://www.youtube.com/embed/pPc7Yifr2lE" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen
+></iframe>
+

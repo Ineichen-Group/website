@@ -1,0 +1,20 @@
+---
+title: "1-Day Systematic Review Workshop"
+description: "Benjamin Ineichen, Pia Härvelid, and Wolfgang Zürrer gave a one-day workshop on systematic reviews and meta-analysis at the University of Zurich. The workshop was co-organized by the Swiss 3RCC and served as a satellite event to the Swiss 3RCC Day 2025 in Zurich."
+alias: &ALIAS translation
+event_date: "23 June 2025"
+event_status: "past"
+image: featured.png
+toc: false
+---
+
+## Related Information
+
+```{=html}
+<object data="Flyer_systematic_review_workshop.pdf" type="application/pdf" width="95%" height="95%" style="min-height:95vh;">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="Flyer_systematic_review_workshop.pdf">click here to
+    download the PDF file.</a></p>
+</object>
+```
+

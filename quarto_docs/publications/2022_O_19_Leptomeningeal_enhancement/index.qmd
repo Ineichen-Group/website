@@ -1,0 +1,12 @@
+---
+title: "Leptomeningeal enhancement in multiple sclerosis and other neurological diseases: A systematic review and Meta-Analysis."
+date: 2022-05-01
+author: ["Ineichen BV*", "Tsagkas C*", "Absinta M", "Reich DS"]
+publication: "NeuroImage Clinical,  33:102939. Epub 20220110. 2022."
+publication_type: "O"
+categories: ["MRI", "SR"]
+url_source: https://doi.org/10.1016/j.nicl.2022.102939 
+year: 2022
+image: featured.jpeg
+pub_number: 19
+---

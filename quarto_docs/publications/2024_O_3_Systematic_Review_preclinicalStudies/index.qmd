@@ -1,0 +1,13 @@
+---
+title: "Systematic review and meta-analysis of preclinical studies."
+date: 2025-09-17
+author: ["Ineichen BV", "Held U", "Salanti G", "Macleod MR", "Wever KE" ]
+publication: "Nature Reviews Methods Primers 4(1), 72"
+publication_type: "O"
+categories: ["SR", "Translation"]
+url_source: https://doi.org/10.1038/s43586-024-00347-x
+year: 2024
+image: featured.jpg
+pub_number: 3
+---
+

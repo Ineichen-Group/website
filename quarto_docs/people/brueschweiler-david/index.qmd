@@ -1,0 +1,53 @@
+---
+title: &TITLE David Brüschweiler
+last: Brüschweiler
+first: David
+subtitle: "MD Candidate"
+people_group: "medicaldoctoralstudent"
+email: "david.brueschweiler@bluewin.ch"
+education:
+  - BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:david.brueschweiler@bluewin.ch 
+---
+
+<hr>
+
+::: {#about}
+David Brüschweiler is an emerging researcher with a Bachelor's degree in Human Medicine from ETH Zurich. Currently in a gap year, he is preparing to start his Master's degree in Lugano in September 2024. David is actively involved in three research projects: A project aiming to provide a geographical and qualitative overview of all animal systematic reviews done in the field of neurology, including the generation of a toolbox capable of automatically extracting key information from abstracts of animal studies. In PsyNamic, David is creating a living systematic review for all clinical studies using psychedelic substances such as psilocybin and LSD to treat psychiatric diseases.
+
+Aside from research, David is passionate about traveling and learning languages, pursuits that enrich his personal and professional life by fostering an appreciation for diverse cultures and perspectives.
+
+David has joined the STRIDE-lab as research assistant in February 2022.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

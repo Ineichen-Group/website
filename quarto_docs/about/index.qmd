@@ -1,0 +1,17 @@
+---
+title: About STRIDE-Lab
+description: "Learn about our research topics."
+image: "../images/about.png"
+listing:
+  id: research
+  type: grid
+  grid-columns: 4
+  template: ../_ejs/research-areas.ejs
+page-layout: full
+toc: false
+---
+
+## 
+Our main goal is to improve how therapies move from animal studies to early clinical trials and finally, to regulatory approval in the field of neuroscience. To achieve this, we use methods like systematic reviews and meta-analysis alongside data science techniques, including natural language processing. By identifying the key elements that lead to successful therapy translation, we aim to streamline therapy development. This would not only benefit welfare of experimental animals but also deliver better treatments to patients more efficiently.
+
+## Research Areas

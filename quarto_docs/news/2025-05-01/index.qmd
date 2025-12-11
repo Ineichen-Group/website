@@ -1,0 +1,12 @@
+---
+title: "Ben started a new position in Bern"
+date: "2025-05-01"
+description: ""
+---
+
+Ben started new position as Assistant Professor (Tenure Track) and Head of the Medical Data Science Unit at the [Department of Clinical Research](https://dcr.unibe.ch/about_us/personen_all_dcr_staff/ineichen_benjamin/index_eng.html) at the University of Bern.
+
+
+
+<!--Note: Yes, injecting raw html is ugly but this is the only way the iframe stays at 100% width and corresponding height -->
+

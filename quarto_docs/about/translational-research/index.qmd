@@ -1,0 +1,23 @@
+---
+title: "Translational Research"
+alias: &ALIAS Translation
+image: featured_v3_blue.png
+short_text: "Our ambition is to identify key factors that ensure successful translation from animal studies to early clinical trials, and finally to market approval."
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: ../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+---
+
+Developing new drugs is an intricate and demanding process. Our ambition is to identify key factors that ensure successful translation from animal studies to early clinical trials, and finally to market approval. By understanding such factors, we can improve the development of novel treatments for human diseases. This approach not only benefits patients but also fosters the 3Rs principles of animal welfare: Replace, Reduce, Refine.
+
+## Related Publications
+
+::: {#pubs}
+:::

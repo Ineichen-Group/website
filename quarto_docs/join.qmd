@@ -1,0 +1,26 @@
+---
+title: "Join the Team"
+description: "Interested in joining the lab?"
+image: "images/join.png"
+format:
+  html:
+    page-layout: full
+---
+
+::: {style="display:flex; align-items:center; gap:25px;"}
+![](images/join_us-01.png){width="628"}
+
+Do you want to contribute to enhancing welfare of research animals or to the development of novel drugs for neurological diseases? [Get in touch!](contact.qmd)
+:::
+
+## What to expect
+
+With our interdisciplinary team—comprised of experts in computer and data science, (bio)medicine, and biostatistics—our lab offers projects that span from data science, like leveraging (large) language models to streamline systematic review processes, to inquiries in medical research, encompassing systematic reviews, meta-analyses, and the journey of drug development from animal models to human application.
+
+We are committed not just to broadening your expertise in specific methodologies relevant to data science, translational research, and animal welfare but also to cultivating your ability to manage your own research projects. We place an emphasis on the complete scientific cycle: from the initial study conception to the publication stage. Our goal is for you to see this whole cycle, including the development of your writing skills and the successful publication of your findings.
+
+Moreover, our lab has a focus on the principles of Open Science. We aim to make our research outputs fully transparent and accessible to all, thereby enhancing our impact on the scientific community and beyond.
+
+## Open job positions
+
+We are looking for Master students from the field of (bio)medicine and/or computer science. Get in touch to discuss potential projects!

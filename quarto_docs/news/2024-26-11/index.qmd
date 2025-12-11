@@ -1,0 +1,10 @@
+---
+title: "New paper in eBioMedicine!"
+date: '2024-11-26'
+description: "We analyzed animal studies of drugs approved for treating multiple sclerosis in humans and compared them to drugs that failed in clinical trials. Could the animal data have predicted which drugs would succeed in humans? Surprisingly, over 90 percent of animal experiments were published after regulatory approval for these drugs to treat multiple sclerosis.
+
+Great work, Ingrid!
+
+Read the full article here: [https://doi.org/10.1016/j.ebiom.2024.105434](https://doi.org/10.1016/j.ebiom.2024.105434)"
+
+---

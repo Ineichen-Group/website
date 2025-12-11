@@ -1,0 +1,20 @@
+---
+title: "STRIDE-Lab & Norecopa Summer School"
+description: "Systematic reviews of animal studies for evidence-based preclinical research."
+alias: &ALIAS translation
+event_date: "20-23 August 2024"
+event_status: "past"
+image: featured.png
+toc: false
+---
+
+## Related Information
+
+```{=html}
+<object data="flyer.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="flyer.pdf">click here to
+    download the PDF file.</a></p>
+</object>
+```
+

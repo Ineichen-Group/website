@@ -1,0 +1,7 @@
+---
+title: "Simona Doneva receives a GRC travel grant - congratulations!"
+date: '2024-06-11'
+description: "Simona Doneva obtained a competitive travel grant from the GRC at the University of Zurich. She will visit the OxML summer school on machine learning in health science in Oxford. Congratulations!"
+---
+
+![](images/Oxford.jpg)

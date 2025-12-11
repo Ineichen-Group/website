@@ -1,0 +1,10 @@
+---
+title: News
+image: "../images/news.png"
+description: "Stay up to date with our latest activities."
+listing: 
+  type: default
+  sort: "date desc"
+  fields: [date, title, description]
+page-layout: full
+---

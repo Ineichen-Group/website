@@ -1,0 +1,51 @@
+---
+title: &TITLE Shirin de Viragh
+last: de Viragh
+first: Shirin
+subtitle: "Master Thesis Student"
+people_group: "alumni"
+email: "s.deviragh@stud.unibas.ch"
+education:
+  - MA Medicine | University of Basel <br> BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:s.deviragh@stud.unibas.ch 
+---
+
+<hr>
+
+::: {#about}
+Shirin completed her BSc in human medicine at ETH Zurich in 2023 and is currently pursuing her master’s degree at the University of Basel. She is writing her masters’s thesis at the Center for Reproducible Science under the lead of Benjamin Ineichen and Simona Doneva. The thesis aims to facilitate the literature research for writing systematic reviews by improving and automating the labeling of relevant studies. In particular, the performance of traditional transformer models such as BERT and of open-source NLP models is compared to prompt-engineered GPT-3.5/4 queries. Besides evidence-based medicine, her research interests include gut-microbiota and enhancing efficiency in hospitals to reduce overtime of healthcare professionals and enable them to spend more time with their patients.
+
+To recover from fatal compilation errors and virtual bug invasions, Shirin enjoys playing violin in chamber music formations, jazzing on her saxophone, and vocally experimenting with various musical styles.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

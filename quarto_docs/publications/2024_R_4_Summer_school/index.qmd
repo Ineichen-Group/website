@@ -1,0 +1,12 @@
+---       
+title: "Summer school for systematic reviews of animal studies: Fostering evidence-based and rigorous animal research."
+date: 2022-05-01
+author: ["Rosso M", "Doneva SE", "Howells DW", "Leenaars CH", "Ineichen BV"]
+publication: "ALTEX, 41(1):131-134. 2024."
+publication_type: "R"
+categories: ["DS", "Translation"]
+url_source: https://doi.org/10.14573/altex.2310251
+year: 2024
+image: featured.jpeg
+pub_number: 4
+---

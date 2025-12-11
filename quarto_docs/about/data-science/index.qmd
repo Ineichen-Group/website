@@ -1,0 +1,25 @@
+---
+title: "Data Science"
+alias: &ALIAS DS
+image: featured_v2_blue.png
+short_text: "Our lab utilizes advanced data science techniques, including natural language processing (NLP), to automate evidence synthesis."
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: ../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+---
+
+<!-- ![](featured.png){width="20%"} -->
+
+The traditional methods of evidence synthesis, such as manually classifying abstracts or extracting data from publications, are time-consuming and resource-intensive. Our lab utilizes advanced data science techniques, including natural language processing (NLP), to automate these processes.
+
+## Related Publications
+
+::: {#pubs}
+:::

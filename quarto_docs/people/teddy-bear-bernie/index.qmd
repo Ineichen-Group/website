@@ -1,0 +1,39 @@
+---
+title: &TITLE Bernie
+last: Giant Teddy Bear
+first: Bernie
+subtitle: "Psychological Support"
+people_group: "teddy-bears"
+education:
+  - MS Hug Studies | University of Life
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+---
+
+<hr>
+
+::: {#about}
+Bernie has a Master’s degree in hug studies and is currently advancing his expertise in cuddling. He is pivotal in promoting positivity and well-being in the STRIDE-lab. Beyond offering psychological support and a soft shoulder to lean on, Bernie enjoys cozy nooks and piano music. He is a reminder of balance and the power of a good hug in science
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>

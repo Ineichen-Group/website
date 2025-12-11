@@ -1,0 +1,12 @@
+---
+title: "Evidence for HARKing in mouse behavioural tests of anxiety"
+date: 2022-05-01
+author: ["Rosso M", "Herrera A", "Würbel H", "Voelkl B"]
+publication: "bioRxiv (2022)"
+publication_type: "O"
+categories: ["Translation"]
+url_source: https://doi.org/10.1101/2022.12.01.518668
+year: 2022
+image: featured.jpeg
+pub_number: 14
+---

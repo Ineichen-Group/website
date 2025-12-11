@@ -1,0 +1,56 @@
+---
+title: &TITLE Enrico Meier
+last: Meier
+first: Enrico
+subtitle: "Research Assistant"
+people_group: "other-research-personell"
+email: "meieren@student.ethz.ch"
+education:
+  - BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:meieren@student.ethz.ch
+---
+
+<hr>
+
+::: {#about}
+Enrico Meier is currently pursuing a Bachelor’s degree in Human Medicine at ETH Zurich. Fascinated by the inner workings of the human body, he is especially drawn to the scientific process that drives the development of new and innovative medical therapies.
+
+Together with his collegue Mia, he is conducting a scoping review on the most commonly used animal models in neurological and psychiatric research. Using the Framework to Identify Models of Disease (FIMD), each model is systematically evaluated and scored for its translational value. The goal is to provide a comprehensive comparison of the diverse animal models that can support informed model selection, ultimately contributing to a reduction in unecessary animal experimentation.
+
+Beyond his academic work, Enrico is passionate about athletics and regularly trains for the 100-meter dash.
+
+
+
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

@@ -1,0 +1,55 @@
+---
+title: &TITLE Hanna Hubarava
+last: Hubarava
+first: Hanna
+subtitle: "Data Scientist"
+people_group: "other-research-personell"
+email: "hanna.hubarava@uzh.ch"
+education:
+  - M.A./M.Sc. Computational Linguistics and Neuroinformatics | University of Zurich 
+  # <br> | B.A. tbd | tbd University
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:hanna.hubarava@uzh.ch 
+---
+
+<hr>
+
+::: {#about}
+Hanna is working towards a Master’s degree in Computational Linguistics and Neuroinformatics at the UZH, and her expertise in both NLP and Neuroscience comes in handy for the lab’s efforts to digitize Neuroscience. Hanna’s current project involves developing a pipeline for automatic classification of biomedical publications by leveraging both small and large language models. The long-term goal of her work lies in facilitating the creation of living evidence summaries amidst the rising tide of biomedical data, which should help bridge the translation gap while reducing the number of experiments on animals.
+
+When not mining texts and tuning hyperparameters, she is notoriously hard to find. Unless climbing or dancing tango, she is likely to be hopping down rapids and eddies in her kayak (occasionally head-down) or taking not always planned swims.
+
+Hanna joined the STRIDE lab in March 2024 as a research assistant.
+
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

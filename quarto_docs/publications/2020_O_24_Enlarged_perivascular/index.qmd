@@ -1,0 +1,12 @@
+---
+title: "Enlarged perivascular spaces in multiple sclerosis on magnetic resonance imaging: a systematic review and meta-analysis."
+date: 2022-05-01
+author: ["Granberg T", "Moridi T", "Brand JS", "Neumann S", "Hlavica M", "Piehl F", "Ineichen BV"]
+publication: "Journal of neurology, 267(11):3199-212. Epub 20200613. 2020."
+publication_type: "O"
+categories: ["MRI", "SR"]
+url_source: https://doi.org/10.1007/s00415-020-09971-5
+year: 2020
+image: featured.jpeg
+pub_number: 24
+---

@@ -1,0 +1,51 @@
+---
+title: &TITLE Ingrid Berg
+last: Berg
+first: Ingrid
+subtitle: "Master Thesis Student"
+people_group: "alumni"
+email: "ingrid.berg@biol.ethz.ch"
+education:
+  - MS Medicine | University of Zurich <br> MSc Biomedical Engineering | ETH Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ingrid.berg@biol.ethz.ch 
+---
+
+<hr>
+
+::: {#about}
+Ingrid holds a Master's degree in Biomedical Engineering from ETH Zurich and is currently pursuing her second Master's degree in Medicine at the University of Zurich. Within the STRIDE-lab, she combined her expertise in biomedical engineering and medicine to explore the critical factors that influence the successful transition of drugs from animal models to clinical settings. Specifically, Ingrid has focused on identifying predictors of successful animal-to-human drug translation for multiple sclerosis (MS). She achieves this by conducting systematic comparisons between animal studies of approved MS drugs and those that failed in clinical trials due to efficacy or safety issues, incorporating data science methods like text mining.
+
+Ingrid has completed her medical Master thesis in the STRIDE-lab in 2022/2023.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

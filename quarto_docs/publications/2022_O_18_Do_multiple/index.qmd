@@ -1,0 +1,12 @@
+---
+title: "Do multiple experimenters improve the reproducibility of animal studies?"
+date: 2022-05-01
+author: ["Kortzfleisch V", "Ambrée O", "Karp N", "Meyer N", "Novak J", "Palme R", "Rosso M", "Touma C", "Würbel H", "Kaiser S", "Sachser N", "Richter S"]
+publication: "PLoS biology, 20(5), e3001564 (2022)"
+publication_type: "O"
+categories: ["Translation"]
+url_source: https://doi.org/10.1371/journal.pbio.3001564
+year: 2022
+image: featured.jpeg
+pub_number: 18
+---

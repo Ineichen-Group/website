@@ -1,0 +1,12 @@
+---
+title: "Neuroimaging findings in preclinical amyotrophic lateral sclerosis models-How well do they mimic the clinical phenotype? A systematic review."
+date: 2022-05-01
+author: ["Cannon AE", "Zürrer WE", "Zejlon C", "Kulcsar Z", "Lewandowski S", "Piehl F", "Granberg T", "Ineichen BV*"]
+publication: "Frontiers in Veterinary Sciences, 10:1135282. Epub 20230502. 2023."
+publication_type: "O"
+categories: ["MRI", "Translation"]
+url_source: https://doi.org/10.3389/fvets.2023.1135282
+year: 2023
+image: featured.jpeg
+pub_number: 11
+---

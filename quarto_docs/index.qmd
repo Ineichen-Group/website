@@ -1,0 +1,96 @@
+---
+page-layout: custom
+toc: false
+image: "/images/preview.png"
+---
+
+::: gradient-text
+[Welcome to STRIDE-Lab<br>]{style="font-size: 3.9rem; letter-spacing: -2px; font-weight:bold; font-family:TheSans, sans-serif; color: rgb(70, 70, 70);"}
+:::
+
+```{=html}
+<style>
+.background-image-container {
+  background-image: url('images/start_page_stride_no_text.png');
+  width: auto; 
+  height: auto; 
+  background-size: cover; /* Cover the entire area of the container */
+  background-position: center; /* Center the background image */
+  display: flex; /* Use Flexbox to center the text block */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 79px; /* Add some padding around the edges */
+}
+
+@media (max-width: 768px) {
+  .background-image-container {
+    padding: 20px; /* Reduced padding for smaller screens */
+  }
+}
+
+.text-block {
+  color: rgb(100, 100, 100); /* Text color */
+  max-width: 70%; /* Max width of the text, relative to the background container */
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1rem, 2vw, 1.09rem); /* Adjusts between 1rem and 1.09rem based on viewport width */
+  text-align: center; /* Center text horizontally */
+  display: flex; /* Use Flexbox for vertical centering */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically */
+  width: 100%; /* Ensure it spans the full width of its container */
+}
+</style>
+
+<style>
+  body {
+  background-image: url("images/stride_lab_logo_white_no_letters_transp_50.png");
+  background-size: 1800px 500px, 550% 550%;
+  background-repeat: no-repeat;
+  #background-position: center center; /* Center the image in the body */
+
+}
+  
+</style>
+
+<div class="background-image-container">
+  <div class="text-block">
+    <p> Our vision is to bridge the gap between preclinical and clinical research to foster the development of therapies to treat human diseases using methods in evidence synthesis and data science. This shall benefit welfare of experimental animals but also contribute to better treatments for patients.</p>
+  </div>
+</div>
+```
+---
+listing:
+  contents: 
+    - research/index.qmd
+    - people/index.qmd
+    - publications/index.qmd
+    - news/index.qmd
+    - events/index.qmd
+    - join.qmd
+  id: front-list
+  sort: "order"
+  type: grid
+  grid-columns: 3
+  categories: false
+  image-align: 'right'
+  image-height: '100%'
+format:
+  html:
+    page-layout: full
+---
+
+## 
+
+::: {#front-list}
+:::
+
+## Institutions and Organisations
+
+::: institutions
+<a href="https://www.uzh.ch/en.html" target="_blank"> <img src="images/logos/uzh_logo.png" alt="University of Zurich" style="width: 12%; margin-right: 1.5%;"/> </a> <a href="https://www.crs.uzh.ch/en.html" target="_blank"> <img src="images/logos/CRS_logo.png" alt="Center for Reproducible Science, UZH" style="width: 12%; margin-right: 1.5%;"/> </a> <a href="https://camarades.ch/" target="_blank"> <img src="images/logos/camarades_zurich.png" alt="CAMARADES Switzerland" style="width: 12%;"/> </a> <a href="https://dcr.unibe.ch/" target="_blank"> <img src="images/logos/01_DCR.png" alt="Department of Clinical Research" style="width: 16%;"/> </a> <a href="https://www.unibe.ch/index_eng.html" target="_blank"> <img src="images/logos/Unibe_Logo.png" alt="University of Bern" style="width: 12%;"/> </a>
+:::
+
+## Funding
+
+<a href="https://www.uzh.ch/en.html" target="_blank"> <img src="images/logos/uzh_logo.png" alt="University of Zurich" style="width: 12%; margin-right: 1.5%;"/> </a><a href="https://www.snf.ch/en" target="_blank"> <img src="images/logos/SNF_logo_standard_office_color_pos_e.png" alt="Swiss National Science Foundation" style="width: 28%; margin-right: 1.5%;"/> </a> <a href="https://www.ufaw.org.uk/" target="_blank"> <img src="images/logos/UFAW_Logo.jpeg" alt="Science in the sevice of Animal Welfare" style="width: 14%; margin-right: 1.5%;"/> </a> <a href="https://www.multiplesklerose.ch/de/" target="_blank"> <img src="images/logos/Logo_MS.png" alt="Schweizerische MS Gesellschaft" style="width: 28%;"/> </a>
+

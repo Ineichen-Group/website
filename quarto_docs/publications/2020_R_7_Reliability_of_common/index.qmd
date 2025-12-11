@@ -1,0 +1,12 @@
+---
+title: "Reliability of common mouse behavioural tests of anxiety: A systematic review and meta-analysis on the effects of anxiolytics"
+date: 2022-05-01
+author: ["Rosso M", "Wirz R", "Loretan A", "Sutter N", "Cunha C", "Jaric I", "Würbel H", "Voelkl B"]
+publication: "Neuroscience & Biobehavioral Reviews 143 (2022): 104928."
+publication_type: "R"
+categories: ["Translation"]
+url_source: https://doi.org/10.1016/j.neubiorev.2022.104928
+year: 2022
+image: featured.jpeg
+pub_number: 7
+---

@@ -1,0 +1,56 @@
+---
+title: Julia Bugajska
+last: Bugajska
+first: Julia
+author_id: &TITLE Bugajska J
+subtitle: "Research Assistant"
+people_group: "alumni"
+email: "julia.bugajska@gmail.com"
+education:
+  - MA Medicine | University of Zurich <br> BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.jpg
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:julia.bugajska@gmail.com 
+---
+
+<hr>
+
+::: {#about}
+Julia Bugajska is a Master's student who completed a Bachelor of Science degree in Human Medicine at ETH Zurich and is now continuing her medical studies at the University of Zurich. She is an aspiring physician-scientist who is interested in translational research in the field of neurology, with an aspiration to leverage computational methods.
+
+Julia has made substantial contributions to systematic review projects. Foremostly, she has systematically analysed how many animal systematic review protocols are being published and how long it takes to complete an animal systematic review. She is also supporting the development of an algorithm capable of automatically extracting essential information from abstracts and methods in the field of animal research for neurological diseases.
+
+Furthermore, Julia's interest in utilizing computational methods in neurology is apparent through her contribution to research projects at the Biomedical Data Science lab at ETH Zurich and the Brain Simulation Section at the Charité in Berlin, and recently through the pursuit of her Master's thesis in neuro-oncology which also aims to aims to harness machine learning.
+
+Aside from her studies and her research, Julia enjoys reading, painting (especially with watercolors) and learning languages. She also loves trying out new food.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

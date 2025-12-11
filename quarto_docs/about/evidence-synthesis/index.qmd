@@ -1,0 +1,25 @@
+---
+title: "Evidence Synthesis"
+alias: &ALIAS SR
+image: featured_v3.png
+short_text: "Our laboratory aims to champion evidence-based research in neuroscience."
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: ../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+---
+
+<!-- ![](featured.png){width="20%"} -->
+
+The rapid expansion of scientific literature challenges our ability to make informed decisions in both clinical and research settings. Our laboratory aims to champion evidence-based research in neuroscience. We focus on conducting systematic reviews and meta-analyses of critical topics in clinical and animal studies, to streamline decision-making processes.
+
+## Related Publications
+
+::: {#pubs}
+:::

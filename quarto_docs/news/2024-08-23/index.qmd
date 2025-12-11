@@ -1,0 +1,11 @@
+---
+title: "Successful STRIDE-Lab summer school on systematic review in Bergen, Norway"
+date: '2024-08-23'
+description: "In collaboration with Norecopa, we're diving deep into the world of systematic reviews with a fantastic group of participants. Over four intensive days, we're mastering the art of posing precise research questions, crafting detailed study protocols, conducting comprehensive literature searches, assessing risk of bias, running meta-analyses, and ultimately, publishing reviews. Systematic review is a cornerstone of evidence-based research, and we're making every moment count with rigorous training, great discussions, and lots of fun!
+With very informative contributions on systematic literature searches by Cathalijn Leenaars and on systematic review automation by Simona Doneva.📖🎓🙏
+ 
+A big shoutout to everyone involved for their enthusiasm and dedication, particularly Adrian Smith and Marianna Rosso."
+---
+
+
+![](images/Groupphoto.jpg)

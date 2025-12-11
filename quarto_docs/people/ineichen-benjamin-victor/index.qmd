@@ -1,0 +1,62 @@
+---
+title: PD Benjamin Victor Ineichen
+last: Ineichen
+first: Benjamin Victor
+author_id: &TITLE Ineichen BV
+people_group: "pi"
+email: "benjamin.ineichen@uzh.ch"
+education:
+  - Ph.D. Neuroscience | University of Zurich <br> MD | University of Zurich 
+subtitle: "Group Leader"
+description: ""
+project: "ANIMONE"
+affiliation: University of Zurich
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:benjamin.ineichen@uzh.ch
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?user=qSDKQhkAAAAJ&hl=en&oi=ao
+    - icon: github
+      text: GitHub 
+      href: https://github.com/Ineichen-Group
+---
+
+<hr>
+
+::: {#about}
+Benjamin Ineichen is an Assistant Professor (Tenure Track) and Head of Medical Data Science at the Department of Clinical Research at the University of Bern. He holds an MD from the University of Zurich and a PhD in Neuroscience and Pharmacology from ETH Zurich. He completed fellowships at the National Institutes of Health (USA, 2017–2018) and the Karolinska Institute (Sweden, 2019–2021) and trained as a clinical resident in Neuroradiology. In 2022, he was appointed as a “Privatdozent” (private lecturer) at the University of Zurich in Neuroanatomy and Neuroinflammation while leading the STRIDE-Lab at the Center for Reproducible Science and the Clinical Neuroscience Center Zurich. He joined the University of Bern in May 2025.
+
+Ben is interested in why so many drugs fail in clinical trials and never gain regulatory approval despite promising early results. His group studies the factors that determine whether a drug progresses from animal studies to clinical trials and regulatory approval. They analyze large-scale data from scientific publications on drug testing and patient data from clinical trials. Their work integrates pharmacology, evidence synthesis, and AI, including natural language processing and large language models. The goal is to improve drug development by making it more efficient and animal-friendly.
+
+Outside research, Ben has a passion for piano, focusing on improvisation and composition. He practices meditation and enjoys long-distance hiking. He also has a big weakness for chocolate and a soft spot for giant teddy bears.
+
+## Education
+
+{{< meta education >}}
+
+<br>
+:::
+
+## Publications
+
+::: {#pubs}
+:::

@@ -1,0 +1,54 @@
+---
+title: Wolfgang Emanuel Zürrer
+last: Zürrer
+first: Wolfgang Emanuel
+author_id: &TITLE Zürrer WE
+subtitle: "Research Assistant"
+people_group: "alumni"
+email: "wolfgangemanuel.zuerrer@uzh.ch"
+education:
+  - MSc Medicine | University of Zurich <br> BSc Human Medicine | ETH Zurich
+description: ""
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:wolfgangemanuel.zuerrer@uzh.ch 
+---
+
+<hr>
+
+::: {#about}
+Wolfgang is currently pursuing his Master's degree in Medicine at the University of Zurich, building upon his Bachelor of Medicine earned with distinction from ETH Zurich in 2023. Prior to his medical studies, Wolfgang was as a professional ice hockey goalie for the GCK Lions between 2016 and 2020 while studying biomedicine part-time from 2018 to 2020.
+
+Since 2022, Wolfgang has been a member of the Stride-lab at the Center for Reproducible Science and the Clinical Neuroscience Center at the University of Zurich. His primary project focuses on conducting a systematic review and meta-analysis regarding misdiagnoses of multiple sclerosis. Research fascinates Wolfgang due to its ability to provide new perspectives on clinical issues, establish foundational evidence, and create lasting impacts. He enjoys the intellectual challenge inherent in the research process, navigating through obstacles to transform ideas into tangible outcomes.
+
+Outside of medicine, Wolfgang's interests span across history, literature – in particular Russian literature and the works of Fyodor Dostoevsky – as well as sports. Additionally, Wolfgang remains engaged in ice hockey as a youth goalie coach.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

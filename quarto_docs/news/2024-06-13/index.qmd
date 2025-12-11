@@ -1,0 +1,9 @@
+---
+title: "We won the 3RCC 2023 Award - yay!"
+date: '2024-06-13'
+description: "We are greatful that the 3RCC acknowledges our contribution to foster evidence-based and reproducible animal research. The 3Rs Award is given for exceptional work that has made a significant contribution to the Replacement, Reduction, and Refinement of animal experimentation (the 3Rs Principle)."
+---
+
+You can learn more about the award on the 3RCC site [People page](https://swiss3rcc.org/awards).
+
+![](images/3Rs_award.jpeg)

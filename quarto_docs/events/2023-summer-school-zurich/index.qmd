@@ -1,0 +1,19 @@
+---
+title: "STRIDE-Lab Summer School"
+description: "In summer 2023 we organised our first summer school on Systematic Reviews in Animal Research."
+alias: &ALIAS translation
+event_date: "28-31 August 2023"
+event_status: "past"
+image: featured.png
+toc: false
+---
+
+## Related Information
+
+```{=html}
+<object data="flyer.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="flyer.pdf">click here to
+    download the PDF file.</a></p>
+</object>
+```

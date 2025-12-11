@@ -1,0 +1,19 @@
+---
+title: "5th International SR-SAVI Conference"
+description: "Systematic Reviews of Animal and In Vitro."
+alias: &ALIAS translation
+event_date: "17-19 October 2024"
+event_status: "past"
+image: featured.png
+toc: false
+---
+
+## Related Information
+
+```{=html}
+<object data="SR-SAVI_flyer.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="SR-SAVI_flyer.pdf">click here to
+    download the PDF file.</a></p>
+</object>
+```

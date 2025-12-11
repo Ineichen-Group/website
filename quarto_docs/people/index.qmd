@@ -1,0 +1,134 @@
+---
+title: "Meet the Group"
+description: "See who is behind STRIDE-Lab."
+image: "../images/people.png"
+listing:
+  - id: pi
+    include: 
+      people_group: "pi"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: researcher
+    include: 
+      people_group: "researcher"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: postdoc
+    include:
+      people_group: "postdoc"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: phdstudent
+    include: 
+      people_group: "phdstudent"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: medicaldoctoralstudent
+    include:
+      people_group: "medicaldoctoralstudent"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: other-research-personell
+    include: 
+      people_group: "other-research-personell"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: master-thesis
+    include: 
+      people_group: "master-thesis"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: alumni
+    include: 
+      people_group: "alumni"
+    exclude:
+      external: true
+    template: ../_ejs/alumni-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education, altsubtitle, alteducation]
+  - id: teddy-bears
+    include: 
+      people_group: "teddy-bears"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education, altsubtitle, alteducation]
+page-layout: full
+---
+
+## Principal Investigator
+
+::: {#pi}
+:::
+
+::: sand-background
+## Postdoctoral Researchers
+
+::: {#postdoc}
+:::
+:::
+
+<!-- ## Postdoctoral Fellows -->
+
+<!-- ::: {#postdoc} -->
+
+<!-- ::: -->
+
+## Doctoral Students
+
+::: {#phdstudent}
+:::
+
+## Medical Doctoral Students
+
+::: {#medicaldoctoralstudent}
+:::
+
+## Master Thesis Students
+
+::: {#master-thesis}
+:::
+
+## Other Research Personell
+
+::: {#other-research-personell}
+:::
+
+## Alumni
+
+::: {#alumni}
+:::
+## Giant Teddy Bears
+
+::: {#teddy-bears}
+:::

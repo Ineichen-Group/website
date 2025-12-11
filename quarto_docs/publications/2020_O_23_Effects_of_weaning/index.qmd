@@ -1,0 +1,12 @@
+---
+title: "Effects of weaning age and housing conditions on phenotypic differences in mice"
+date: 2022-05-01
+author: ["Bailoo J", "Voelkl B", "Varholick J", "Novak J", "Murphy E", "Rosso M", "Palme R", "Würbel H"]
+publication: "Scientific reports 10.1 (2020): 11684"
+publication_type: "O"
+categories: ["Translation"]
+url_source: https://doi.org/10.1038/s41598-020-68549-3
+year: 2020
+image: featured.jpeg
+pub_number: 23
+---
