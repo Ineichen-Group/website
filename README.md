@@ -1,4 +1,4 @@
-This is the code for STRIDE-Lab website that can be accessed here: https://stride-lab.pages.uzh.ch/website/
+This is the code for STRIDE-Lab website that can be accessed here: https://ineichen-group.github.io/website/
 
 - [Quarto Website Setup](#quarto-website-setup)
   - [1. \_quarto.yml](#1-_quartoyml)
@@ -18,7 +18,7 @@ This is the code for STRIDE-Lab website that can be accessed here: https://strid
       - [Commit and push changes](#commit-and-push-changes)
   - [Adding Publications](#adding-publications)
   - [Adding People](#adding-people)
-- [Continuous Integration with GitLab](#continuous-integration-with-gitlab)
+- [Continuous Integration with GitHub](#continuous-integration-with-github)
     - [Image](#image)
     - [Pages Stage](#pages-stage)
     - [Before Script](#before-script)
@@ -26,7 +26,7 @@ This is the code for STRIDE-Lab website that can be accessed here: https://strid
     - [Artifacts](#artifacts)
     - [Only](#only)
     - [Interruptible](#interruptible)
-- [Reference GitLab Pages](#reference-gitlab-pages)
+- [Reference GitHub Pages](#reference-github-pages)
 
 # Quarto Website Setup
 The website content is in [quarto_docs](quarto_docs). 
@@ -219,7 +219,7 @@ The file also includes responsive design adjustments for different screen sizes,
 
 # How-to Make Updates
 
-## Modifying existing content
+## Modifying existing content (depricated #TODO: update to GitHub)
 If you want to modify a single file with simple changes, e.g. adding a few new sentences, fixing typos, changing the tag to a different category, the easiest way is in the browser.
 1. Navigate to the file that you want to change and click on it, navigate to "Edit single file".
 ![1.select_file_gitlab.png](docu_screenshots%2F1.select_file_gitlab.png)
@@ -237,17 +237,17 @@ After a few seconds-minutes it should turn green for a successful deployment and
 To add new content, it is best to work with a clone of the github repository. There are many ways to work with Quarto and a common one is using RStudio. [Here](https://quarto.org/docs/get-started/hello/rstudio.html) you can get instructions to get started. The basic steps are:
 
 #### Setup local git repository
-1. If not already authenticated, make sure you have a connection to the gitlab repository via the terminal. Here an example for authentication via a personal access token:
-   1.1. Create a personal access token, see instructions [here](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token). 
+1. If not already authenticated, make sure you have a connection to the GitHub repository via the terminal. Here an example for authentication via a personal access token:
+   1.1. Create a personal access token, see instructions [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). 
    1.2. Copy the token and use it in your terminal to establish connection to the repository
 
     ```
-    git remote set-url origin https://oauth2:<your_personal_access_token>@gitlab.uzh.ch/stride-lab/website
+    git remote set-url origin https://oauth2:<your_personal_access_token>@github.com/Ineichen-Group/website.git
     ```  
 
 2. Clone the repository locally, e.g via HTTPS:
  ```
-git clone https://gitlab.uzh.ch/stride-lab/website.git
+git clone https://github.com/Ineichen-Group/website.git
 ```  
 
 #### Make changes
@@ -268,7 +268,7 @@ install.packages('leaflet')
 ```
 quarto::quarto_preview()
 ```
-Please make sure you test the change locally before committing! You can get more detailed error messages and it is easier to debug compared to the gitlab pipelines.
+Please make sure you test the change locally before committing! You can get more detailed error messages and it is easier to debug compared to the GitHub Actions log.
 
 #### Commit and push changes
 ```
@@ -358,79 +358,96 @@ about:
 ---
 ```
 
-# Continuous Integration with GitLab
-
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
+# Continuous Integration with GitHub
+This project's static Pages are built by GitHub Actions and served via GitHub Pages. The workflow is defined in [`.github/workflows/quarto-publish.yml`](.github/workflows/quarto-publish.yml):
 
 ```
-image: rocker/verse:latest
+name: Build and Publish Quarto Site
 
-pages:
-  stage: deploy
-  before_script:
-  - R -e "install.packages('quarto', repos='https://stat.ethz.ch/CRAN/')" 
-  - R -e "install.packages('leaflet')" 
-  - mkdir -p public/
-    
-  script: 
-  - cd quarto_docs
-  - R -e "quarto::quarto_render()"       
-  - mv ./_site/* ../public/  
-  
+on:
+  push:
+    branches: [ main ] 
 
-  artifacts:    
-    paths:
-    - public
-    
-  only:
-  - master
-  interruptible: true
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install system dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            quarto
+            leaflet
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto site (via R)
+        run: |
+          cd quarto_docs
+          Rscript -e "quarto::quarto_render()"
+
+      - name: Upload site artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quarto_docs/_site
+
+  deploy:
+    needs: build-deploy
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
 ```
+## Workflow Steps Explained
 
-### Image
-- **Docker Image**: `rocker/verse:latest`
-  - Uses the `rocker/verse` Docker image with the latest tag, which includes R, RStudio, and a suite of R packages.
+### 1. Trigger
+* The workflow is triggered on pushes to the `main` branch.
 
-### Pages Stage
-- **Stage**: `deploy`
-  - Defines the pipeline stage named `deploy`.
+### 2. Build Job (`build-deploy`)
+* Runs on: `ubuntu-latest`.
+* Steps:
+  1. **Checkout repository**: Uses the `actions/checkout` action to clone the repository
+  2. **Set up R**: Uses the `r-lib/actions/setup-r` action to install R.
+  3. **Install system dependencies**: Installs Quarto and the `leaflet` (for interactive maps) package.
+  4. **Set up Quarto**: Uses the `quarto-dev/quarto-actions/setup` action to install Quarto.
+  5. **Render Quarto Site**: Changes directory to `quarto_docs` and executes:
+      ```
+      Rscript -e "quarto::quarto_render()"
+      ```
+  6. **Upload site artifact**: Uses the `actions/upload-pages-artifact` action to upload the rendered site located in `quarto_docs/_site`.
 
-### Before Script
-- Commands to set up the environment before the main script:
-  1. `R -e "install.packages('quarto', repos='https://stat.ethz.ch/CRAN/')"`
-     - Installs the `quarto` package from CRAN for document rendering.
-  2. `R -e "install.packages('leaflet')"`
-     - Installs the `leaflet` package for creating interactive maps.
-  3. `mkdir -p public/`
-     - Creates a `public` directory if it does not already exist.
+### 3. Deploy Job (`deploy`)
+* Depends on the successful completion of the `build-deploy` job.
+* Runs on: `ubuntu-latest`.
+* Permissions: 
+  * `pages: write` -> allows deploying to GitHub Pages
+  * `id-token: write` -> allows authentication for deployment.
+* Steps:
+  1. **Deploy to GitHub Pages**: Uses the `actions/deploy-pages` action to deploy the uploaded site artifact to GitHub Pages.
 
-### Script
-- Main commands to be executed:
-  1. `cd quarto_docs`
-     - Change to the `quarto_docs` directory where Quarto documents are located.
-  2. `R -e "quarto::quarto_render()"`
-     - Renders the documents using the `quarto_render` function.
-  3. `mv ./_site/* ../public/`
-     - Moves the rendered site from `_site` to the `public` directory.
-
-### Artifacts
-- **Paths**:
-  - `- public`
-    - Saves the `public` directory as an artifact to be used by subsequent stages or jobs.
-
-### Only
-- Specifies the branches that will trigger this job:
-  - `- master`
-    - The job only runs on pushes to the `master` branch.
-
-### Interruptible
-- **Interruptible**: `true`
-  - Allows the job to be canceled if a newer pipeline is started, saving resources.
+### Notes
+* All static pages are served from GitHub Pages.
+* No Docker image is required; the workflow runs in the GitHub Actions environment `ubuntu-latest`.
+* Deep links are preserved by Quarto during the rendering process.
 
 
+# Reference GitHub Pages
 
-# Reference GitLab Pages
-
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation https://docs.gitlab.com/ce/user/project/pages/.
+Learn more about GitHub Pages at https://pages.github.com, the official
+documentation https://docs.github.com/en/pages
