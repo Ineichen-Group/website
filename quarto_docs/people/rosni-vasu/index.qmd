@@ -30,12 +30,6 @@ about:
     - icon: envelope
       text: Email
       href: mailto:rosni.kottekulam@unibe.ch 
-    - icon: globe
-      text: Website
-      href: https://rosnikv.github.io
-    - icon: google-scholar
-      text: Google Scholar
-      href: https://scholar.google.com/citations?hl=en&user=eR9zhxkAAAAJ&
 ---
 
 <hr>
