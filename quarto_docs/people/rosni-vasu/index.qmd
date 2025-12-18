@@ -9,7 +9,7 @@ email: "rosni.kottekulam@unibe.ch"
 education:
   - PhD Informatics | University of Zurich <br> M.Tech. Artificial Intelligence | University of Hyderabad
 description: "AI-assisted scientific discovery; language model systems for reasoning over scientific knowledge."
-image: avatar.png
+image: avatar.jpg
 page-layout: full
 listing:
   id: pubs
