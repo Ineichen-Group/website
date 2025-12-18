@@ -1,0 +1,59 @@
+---
+title: Rosni Vasu
+last: Vasu
+first: Rosni
+author_id: &TITLE Vasu R
+subtitle: "Research Scientist"
+people_group: "postdoc"
+email: "rosni.kottekulam@unibe.ch"
+education:
+  - PhD Informatics | University of Zurich <br> M.Tech. Artificial Intelligence | University of Hyderabad
+description: "AI-assisted scientific discovery; language model systems for reasoning over scientific knowledge."
+image: avatar.png
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:rosni.kottekulam@unibe.ch 
+    - icon: globe
+      text: Website
+      href: https://rosnikv.github.io
+    - icon: google-scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?hl=en&user=eR9zhxkAAAAJ&
+---
+
+<hr>
+
+::: {#about}
+Rosni Vasu completed her PhD in Informatics at the University of Zurich under the supervision of Prof. Abraham Bernstein. She earned her M.Tech. in Artificial Intelligence from the University of Hyderabad, India, and previously worked as a researcher at the Tata Research Development and Design Centre, India, where she conducted applied machine learning research as part of the Cybersecurity and Privacy group.
+
+During her doctoral studies, she spent six months as a visiting researcher at the Allen Institute for AI (Ai2) in Seattle, working on literature-grounded scientific hypothesis generation and ranking. Her research focuses on AI-assisted scientific discovery, with an emphasis on natural language processing and large language models for reasoning over scientific and medical literature, with a strong interest in socially beneficial uses of large language models, including medical and clinical research applications.
+
+
+## Education
+
+{{< meta education >}}
+
+<br>
+:::
+
+## Publications
+
+::: {#pubs}
+:::
