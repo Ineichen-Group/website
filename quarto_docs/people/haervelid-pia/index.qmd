@@ -4,7 +4,7 @@ last: Härvelid
 first: Pia
 author_id: &TITLE Haervelid P
 subtitle: "Research Assistant"
-people_group: "research-assistant"
+people_group: "alumni"
 email: "haervp@usi.ch"
 education:
   - MA Medicine | Università della Svizzera italiana  <br> BSc Human Medicine | ETH Zurich
