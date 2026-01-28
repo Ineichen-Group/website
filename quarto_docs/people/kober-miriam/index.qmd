@@ -1,0 +1,52 @@
+---
+title: Miriam Kober
+last: Kober
+first: Miriam
+author_id: &TITLE Kober M
+subtitle: "PhD Student"
+people_group: "phdstudent"
+email: "miriam.kober@unibe.ch"
+education:
+  - M.Sc. Mechanical Engineering | RWTH Aachen University <br> B.Sc. Business Administration and Mechanical Engineering | RWTH Aachen University
+description: ""
+image: avatar.jpg
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:miriam.kober@unibe.ch 
+---
+
+<hr>
+
+::: {#about}
+Miriam completed her Bachelor’s in Business Administration and Mechanical Engineering at RWTH Aachen University, where she developed a strong interest in data-driven methods. She deepened this focus during her Master’s in Mechanical Engineering with a specialization in Data Science and Medical Engineering at RWTH Aachen. Her studies were complemented by exchange semesters at EPFL and Politecnico di Milano, a student research assistant position in uncertainty estimation at the Chair of Process Systems Engineering, and an R&D internship at Fresenius Medical Care. 
+
+Since November 2025, she has been pursuing her PhD at STRIDE-Lab. The main goal of her research is supporting efficient and evidence-based decision making for clinicians by building a clinical trial systematic review platform. When she takes a break from NLP-driven clinical trial analysis, she can most likely be found in the next climbing gym or crag.
+
+## Education
+
+{{< meta education >}}
+
+<br>
+:::
+
+## Publications
+
+::: {#pubs}
+:::
