@@ -231,6 +231,7 @@ If you want to modify a single file with simple changes, e.g. adding a few new s
 
 ## New content (news, people, publications, research areas)
 **locally, for bigger changes (with preview)**
+
 To make bigger changes, it's recommended to work with a local copy of the repository where one can look at a preview of the website before deploying. 
 There are many ways to work with Quarto and a common one is using RStudio s. [GetStarted with Quarto](https://quarto.org/docs/get-started/hello/rstudio.html). Here, are the basics steps to get started with a local copy, either setup via Terminal + RStudio or via GitHub Desktop + RStudio. 
 
