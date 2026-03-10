@@ -20,7 +20,14 @@
       "extensions": [
         "quarto.quarto",
         "REditorSupport.r"
-      ]
+      ],
+      "settings": {
+        "quarto.preview.showBrowser": true
+      }
     }
+  },
+
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
   }
 }
