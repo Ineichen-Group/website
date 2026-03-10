@@ -28,13 +28,13 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:veralara.bernhard@uzh.ch 
+      href: mailto:vera.bernhard@unibe.ch 
 ---
 
 <hr>
 
 ::: {#about}
-Vera is currently pursuing her Master’s degree in Computational Linguistics & Language Technology and Informatics at University of Zurich. Her fascination lies in leveraging NLP techniques and large language models to make vast amounts of data accessible. Fueled by her passion for fostering interdisciplinary exchange, she has joined the STRIDE lab’s efforts in automatically classifying and detecting entities in biomedical text, all in pursuit of creating tools for living evidence summaries. Beyond tackling machine learning problems, Vera enjoys hosting board game evenings, finding her creative outlet in tap dance improvisation, and has a soft spot for solving crosswords.
+Vera holds a Master’s degree in Computational Linguistics & Language Technology and Informatics from the University of Zurich. She is passionate about making large amounts of data accessible using NLP techniques and large language models, and enjoys bringing together different perspectives and fields of research. At the STRIDE lab, she contributes to automatically classifying and detecting entities in biomedical text, while also developing full-stack web applications to share these results with the public. Outside the lab, Vera enjoys dancing and working out with her Team Aerobic group, hosting board game nights, and volunteering as a train attendant on vintage trams.
 
 ## Education
 
