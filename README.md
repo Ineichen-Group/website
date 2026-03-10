@@ -1,35 +1,30 @@
 This is the code for STRIDE-Lab website that can be accessed here: https://ineichen-group.github.io/website/
 
 - [Quarto Website Setup](#quarto-website-setup)
-  - [1. \_quarto.yml](#1-_quartoyml)
+  - [1. _quarto.yml](#1-_quarto.yml)
   - [2. .qmd files](#2-qmd-files)
     - [Simple Pages](#simple-pages)
       - [YAML Front Matter](#yaml-front-matter)
       - [Flexible Box (Flexbox) Layout](#flexible-box-flexbox-layout)
       - [Sections with text](#sections-with-text)
     - [Advanced pages](#advanced-pages)
-    - [3. \_ejs](#3-_ejs)
+    - [3. _ejs](#3-_ejs)
     - [4. styles.css](#4-stylescss)
 - [How-to Make Updates](#how-to-make-updates)
-  - [Modifying existing content](#modifying-existing-content)
-  - [Adding new content (news, people, publications, research areas)](#adding-new-content-news-people-publications-research-areas)
-      - [Setup local git repository](#setup-local-git-repository)
-      - [Make changes](#make-changes)
-      - [Commit and push changes](#commit-and-push-changes)
-  - [Adding Publications](#adding-publications)
-  - [Adding People](#adding-people)
+  - [Minor modifications to existing content](#minor-modifications-to-existing-content)
+  - [New content (news, people, publications, research areas)](#new-content-news-people-publications-research-areas)
+    - [Setup local git repository](#setup-local-git-repository)
+    - [Make changes](#make-changes)
+      - [Adding Publications](#adding-publications)
+      - [Adding People](#adding-people)
+    - [Commit and push changes](#commit-and-push-changes)
 - [Continuous Integration with GitHub](#continuous-integration-with-github)
-    - [Image](#image)
-    - [Pages Stage](#pages-stage)
-    - [Before Script](#before-script)
-    - [Script](#script)
-    - [Artifacts](#artifacts)
-    - [Only](#only)
-    - [Interruptible](#interruptible)
+  - [Workflow Steps Explained](#workflow-steps-explained)
+    - [1. Trigger](#1-trigger)
+    - [2. Build Job (`build-deploy`)](#2-build-job-build-deploy)
+    - [3. Deploy Job (`deploy`)](#3-deploy-job-deploy)
+  - [Notes](#notes)
 - [Reference GitHub Pages](#reference-github-pages)
-
-# Quarto Website Setup
-The website content is in [quarto_docs](quarto_docs). 
 
 ## 1. _quarto.yml
 Every website has a [_quarto.yml](quarto_docs%2F_quarto.yml) config file that provides website options as well as defaults for HTML documents created within the site, e.g.:
@@ -219,69 +214,69 @@ The file also includes responsive design adjustments for different screen sizes,
 
 # How-to Make Updates
 
-## Modifying existing content (depricated #TODO: update to GitHub)
+## Minor modifications to existing content
+**on GitHub, for minor changes (no preview required)**
+
 If you want to modify a single file with simple changes, e.g. adding a few new sentences, fixing typos, changing the tag to a different category, the easiest way is in the browser.
-1. Navigate to the file that you want to change and click on it, navigate to "Edit single file".
-![1.select_file_gitlab.png](docu_screenshots%2F1.select_file_gitlab.png)
-![2.edit_single_file.png](docu_screenshots%2F2.edit_single_file.png)
+1. Navigate to the file that you want to change and click on it, navigate to "In place" edit.
+![1.select_file_gitlab.png](docu_screenshots%2F1.find_file.png)
+![2.edit_single_file.png](docu_screenshots%2F2.edit_file.png)
 2. You will now see the editing view of the file and can make the desired changed.
-![3.edit_file_view.png](docu_screenshots%2F3.edit_file_view.png)
-3. Write a meaningful commit message describing the changes you made, and commit the changes.
-![4.commit_edit.png](docu_screenshots%2F4.commit_edit.png)
-4. When you go back to the repository, you will see the progress bar of a running deployment.
-After a few seconds-minutes it should turn green for a successful deployment and the changes should be visible on the website.
-![5.deployment_running.png](docu_screenshots%2F5.deployment_running.png)
-![6.deployment_done.png](docu_screenshots%2F6.deployment_done.png)
+![3.edit_file_view.png](docu_screenshots%2F3.edit_file.png)
+3. Once your done, click "Commit changes", write a meaningful commit message describing the changes you made, and commit the changes.
+![4.commit_edit.png](docu_screenshots%2F4.commit_message.png)
+4. When you go to [Actions](https://github.com/Ineichen-Group/website/actions) back in the repository, you will see the state of the deployment process of your commit. After a couple of seconds-minutes the icon should change from the orange waiting icon to the green tick icon. Green stands for successful deployment and the changes should be visible on the website.
+![5.deployment_running.png](docu_screenshots%2F5.waiting_for_publishing.png)
+![6.deployment_done.png](docu_screenshots%2F6.website_deployment.png)
 
-## Adding new content (news, people, publications, research areas)
-To add new content, it is best to work with a clone of the github repository. There are many ways to work with Quarto and a common one is using RStudio. [Here](https://quarto.org/docs/get-started/hello/rstudio.html) you can get instructions to get started. The basic steps are:
+## New content (news, people, publications, research areas)
+**locally, for bigger changes (with preview)**
+To make bigger changes, it's recommended to work with a local copy of the repository where one can look at a preview of the website before deploying. 
+There are many ways to work with Quarto and a common one is using RStudio s. [GetStarted with Quarto](https://quarto.org/docs/get-started/hello/rstudio.html). Here, are the basics steps to get started with a local copy, either setup via Terminal + RStudio or via GitHub Desktop + RStudio. 
 
-#### Setup local git repository
-1. If not already authenticated, make sure you have a connection to the GitHub repository via the terminal. Here an example for authentication via a personal access token:
-   1.1. Create a personal access token, see instructions [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). 
-   1.2. Copy the token and use it in your terminal to establish connection to the repository
+### Setup local git repository
+* Create a GitHub account and be added to the STRIDE-Lab organisation
+* Install [R and R-Studio](https://posit.co/download/rstudio-desktop/)
 
+#### Setup via Terminal + R-Studio
+* Clone the repository:
+  1. If not already authenticated, make sure you have a connection to the GitHub repository via the terminal. Here an example for authentication via a personal access token:
+     1.1. Create a personal access token, see instructions [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). 
+     1.2. Copy the token and use it in your terminal to establish connection to the repository
+      ```bash
+      git remote set-url origin https://oauth2:<your_personal_access_token>@github.com/Ineichen-Group/website.git
+      ```  
+  2. Clone the repository locally, e.g via HTTPS:
+    ```bash
+    git clone https://github.com/Ineichen-Group/website.git
     ```
-    git remote set-url origin https://oauth2:<your_personal_access_token>@github.com/Ineichen-Group/website.git
-    ```  
+  3. Open as project the folder of containing the website content in R-Studio.
+  4. Be sure that you have installed the tidyverse and palmerpenguins packages. Additionally, we use the leaflet package to display the map of Zurich in Contacts page:
+  ```
+  install.packages("tidyverse")
+  install.packages("palmerpenguins")
+  install.packages('leaflet')
+  ```
 
-2. Clone the repository locally, e.g via HTTPS:
- ```
-git clone https://github.com/Ineichen-Group/website.git
-```  
+#### Setup via GitHub Desktop + RStudio
+  1. Download [GitHub Desktop](https://desktop.github.com/download/) & login to your account
+  2. Select "Clone a repository from the Internet" and choose "Ineichen-Group/website"
+  3. Under "Select your editor in Options" choose "R-Studio" > "Open in RStudio"
+  4. Be sure that you have installed the tidyverse and palmerpenguins packages. Additionally, we use the leaflet package to display the map of Zurich in Contacts page. Therefore, open "Packages" > "Packages (separated multiple with space or comma" and paste `tidyverse palmerpenguins leaflet` and then "Install"
 
-#### Make changes
-1. Install RStudio.
 
-2. Be sure that you have installed the tidyverse and palmerpenguins packages. Additionally, we use the leaflet package to display the map of Zurich in Contacts page:
-```
-install.packages("tidyverse")
-install.packages("palmerpenguins")
-install.packages('leaflet')
-```
-
-1. Open as project the folder of containing the website content.
-
-2. Make the needed updates, e.g., by opening a .qmd file in RStudio or creating a new folder and adding new files.
-
-3. Test the changes by running from the button "Render" or with the command in the Console:
-```
-quarto::quarto_preview()
-```
-Please make sure you test the change locally before committing! You can get more detailed error messages and it is easier to debug compared to the GitHub Actions log.
-
-#### Commit and push changes
-```
-git add <path to changed file or foder>
-git commit -m "message explaining the change"
-git push
-```
+### Make changes
+  1. Make the needed updates, e.g., by opening a .qmd file in RStudio or creating a new folder and adding new files.
+  2. Test the changes by running from the button "Render" or with the command in the Console:
+  ```
+  quarto::quarto_preview()
+  ```
+  ** Please make sure you test the change locally before committing! You can get more detailed error messages and it is easier to debug compared to the GitHub Actions log.**
 
 The easiest approach for adding new content for news, people, publications and research areas is to duplicate the folder of an existing element, rename it, and modify its contents as needed.
-
 As long as the keys in the new .qmd file remain unchanged and only the values are modified, the element will be read correctly.
 
-## Adding Publications
+#### Adding Publications
 When adding a new publication, we would need to update these elements:
 
 - **title**: The title of the publication.
@@ -310,7 +305,7 @@ pub_number: 11
 ---
 ```
 
-## Adding People
+#### Adding People
 
 When adding a new person, we would need to update these elements:
 - **Title, Last, First, and Author ID**: Update with the new person's full name and unique identifier. The unique identifier should be the same used in the authors list of publications.
@@ -357,6 +352,24 @@ about:
       href: mailto:pia.haervelid@hotmail.com 
 ---
 ```
+
+### Commit and push changes
+#### Via Terminal
+```
+git add <path to changed file or foder>
+git commit -m "message explaining the change"
+git push
+```
+
+#### Via GitHub Desktop
+
+1. Open Github Desktop and "website" repository and then click "Fetch origin" (to get the newest version of the website)
+2. Check the changed files and tick those you want to keep
+3. Then write a commit message and press "Commit to main"
+4. Press "Push origin" to upload the changes and trigger deployment.
+
+
+### Where to update what
 
 # Continuous Integration with GitHub
 This project's static Pages are built by GitHub Actions and served via GitHub Pages. The workflow is defined in [`.github/workflows/quarto-publish.yml`](.github/workflows/quarto-publish.yml):
