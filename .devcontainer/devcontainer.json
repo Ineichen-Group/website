@@ -2,9 +2,9 @@
   "name": "Quarto Website",
   "image": "ghcr.io/rocker-org/devcontainer/r-quarto:4.3",
 
-  "postCreateCommand": "R -e \"install.packages(c('tidyverse','leaflet','palmerpenguins'), repos='https://cloud.r-project.org')\"",
+  "postCreateCommand": "R -e \"install.packages(c('tidyverse','leaflet','palmerpenguins'), repos='https://cloud.r-project.org')\" && cd quarto_docs && quarto preview --host 0.0.0.0 --port 4200 --no-browser",
 
-  "postStartCommand": "cd quarto_docs && quarto preview --host 0.0.0.0 --port 4200",
+  "postStartCommand": "cd quarto_docs && quarto preview --host 0.0.0.0 --port 4200 --no-browser",
 
   "forwardPorts": [4200],
 
