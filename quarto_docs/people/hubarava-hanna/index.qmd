@@ -4,7 +4,7 @@ last: Hubarava
 first: Hanna
 subtitle: "Data Scientist"
 people_group: "other-research-personell"
-email: "hanna.hubarava@uzh.ch"
+email: "hanna.hubarava@unibe.ch"
 education:
   - M.A./M.Sc. Computational Linguistics and Neuroinformatics | University of Zurich 
   # <br> | B.A. tbd | tbd University
