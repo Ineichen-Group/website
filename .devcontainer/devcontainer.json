@@ -1,6 +1,6 @@
 {
   "name": "Quarto Website",
-  "image": "ghcr.io/quarto-dev/quarto/devcontainer:latest",
+  "image": "ghcr.io/mcanouil/quarto-codespaces:latest",
 
   "postCreateCommand": "R -e \"install.packages(c('tidyverse','leaflet','palmerpenguins'), repos='https://cloud.r-project.org')\"",
 
