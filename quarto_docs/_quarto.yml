@@ -54,7 +54,7 @@ website:
     center: © 2024  &middot; Made with
       [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/).
        Source code on
-      [![](https://cdn-icons-png.flaticon.com/256/25/25231.png){fig-alt="Git" width=65px}](https://github.com/Ineichen-Group/website) 
+      [![](https://cdn-icons-png.flaticon.com/256/25/25231.png){fig-alt="Git" width=15px}](https://github.com/Ineichen-Group/website) 
     right:
       - text: Department of Clinical Research, University of Bern
         href: https://dcr.unibe.ch
