@@ -1,0 +1,65 @@
+# =========================
+# Quarto output
+# =========================
+_site/
+.quarto/
+
+# If your project is in a subfolder like quarto_docs/
+quarto_docs/_site/
+quarto_docs/.quarto/
+
+# =========================
+# R / RStudio
+# =========================
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & temporary files
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Python (if used with Quarto)
+# =========================
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# =========================
+# Jupyter (if used)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Package management
+# =========================
+renv/library/
+renv/staging/
+renv/python/
+
+# Keep lockfile (important!)
+!renv.lock
+
+# =========================
+# Cache (knitr / Quarto execution)
+# =========================
+*_cache/
+.cache/
+
+# =========================
+# VS Code (optional)
+# =========================
+.vscode/
