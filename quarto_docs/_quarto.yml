@@ -3,7 +3,7 @@ project:
 
 website:
   title: "STRIDE-Lab"
-  site-url: "https://stride-lab.pages.uzh.ch/"
+  site-url: "https://ineichen-group.github.io/website/"
   favicon: images/fav_icon_stride.png
   image: images/preview.png
   twitter-card:
@@ -11,7 +11,7 @@ website:
   open-graph:
     locale: en_EN
     site-name: STRIDE-Lab
-    description: "STRIDE-Lab at the University of Zurich is dedicated to bridging preclinical and clinical research gaps, using data science and evidence synthesis."
+    description: "STRIDE-Lab at the University of Bern is dedicated to bridging preclinical and clinical research gaps, using data science and evidence synthesis."
     image: "https://en.wikipedia.org/wiki/PNG#/media/File:PNG_transparency_demonstration_1.png"
   navbar:
     search: true
@@ -41,6 +41,11 @@ website:
       - icon: twitter
         href: https://twitter.com/STRIDELab_ch
         aria-label: Twitter
+      - icon: linkedin
+        href: https://www.linkedin.com/company/stride-lab/
+        aria-label: LinkedIn
+
+
   page-footer: 
     background: "#F6F5F3"
     left:
@@ -49,10 +54,10 @@ website:
     center: © 2024  &middot; Made with
       [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/).
        Source code on
-      [![](https://images.ctfassets.net/xz1dnu24egyd/1hnQd13UBU7n5V0RsJcbP3/769692e40a6d528e334b84f079c1f577/gitlab-logo-100.png){fig-alt="Git" width=65px}](https://gitlab.uzh.ch/stride-lab/website) 
+      [![](https://cdn-icons-png.flaticon.com/256/25/25231.png){fig-alt="Git" width=15px}](https://github.com/Ineichen-Group/website) 
     right:
-      - text: Center for Reproducible Science, University of Zurich
-        href: https://www.crs.uzh.ch/en.html
+      - text: Department of Clinical Research, University of Bern
+        href: https://dcr.unibe.ch
 
 format:
   html:
