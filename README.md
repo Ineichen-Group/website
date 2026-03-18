@@ -261,7 +261,7 @@ There are many ways to work with Quarto and a common one is using RStudio s. [Ge
 
 #### Setup via GitHub Desktop + RStudio
   1. Download [GitHub Desktop](https://desktop.github.com/download/) & login to your account
-  2. Select "Clone a repository from the Internet" and choose "Ineichen-Group/website"
+  2. Select "Clone a repository from the Internet" and choose "Ineichen-Group/website". (On windows, the cloned repositories are saved in <user>\Documents\GitHub)
   3. Under "Select your editor in Options" choose "R-Studio" > "Open in RStudio"
   4. Be sure that you have installed the tidyverse and palmerpenguins packages. Additionally, we use the leaflet package to display the map of Zurich in Contacts page. Therefore, open "Packages" > "Packages (separated multiple with space or comma" and paste `tidyverse palmerpenguins leaflet` and then "Install"
 
@@ -272,7 +272,7 @@ There are many ways to work with Quarto and a common one is using RStudio s. [Ge
   ```
   quarto::quarto_preview()
   ```
-  ** Please make sure you test the change locally before committing! You can get more detailed error messages and it is easier to debug compared to the GitHub Actions log.**
+  **Please make sure you test the change locally before committing! You can get more detailed error messages and it is easier to debug compared to the GitHub Actions log.**
 
 The easiest approach for adding new content for news, people, publications and research areas is to duplicate the folder of an existing element, rename it, and modify its contents as needed.
 As long as the keys in the new .qmd file remain unchanged and only the values are modified, the element will be read correctly.
