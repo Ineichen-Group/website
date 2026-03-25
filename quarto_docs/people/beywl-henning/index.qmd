@@ -1,0 +1,53 @@
+---
+title: &TITLE Beywl Henning
+last: Beywl
+first: Henning
+subtitle: "Data Scientist/Engineer"
+people_group: "master-thesis"
+email: "henning.beywl@insel.ch"
+education:
+  - M.A. Computational Linguistics and Language Technology | University of Zurich
+description: ""
+image: avatar.jpg
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:henning.beywl@insel.ch 
+---
+
+<hr>
+
+::: {#about}
+Henning Beywl is a Data Scientist and Data Engineer working as part of a cooperation agreement between the Department of Clinical Research at the University of Bern (DCR) and the Insel Data Science Center of Inselspital Bern (IDSC). He joined STRIDE-Lab in November 2025 and has been working at the IDSC since 2022.
+
+Henning supports STRIDE-Lab projects with his interdisciplinary skills in clinical data provision and analysis and computational linguistics. He also provides research data to DCR units in accordance with the IDSC data protection regulation.
+
+When he is not wrangling data, Henning enjoys playing various card games, building costumes for live events, or attending concerts of bands you’ve never heard of before.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::
