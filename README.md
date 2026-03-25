@@ -1,7 +1,9 @@
+# How-To STRIDE-Lab Website (built with Quarto)
 This is the code for STRIDE-Lab website that can be accessed here: https://ineichen-group.github.io/website/
 
+**Table of Contents**
 - [Quarto Website Setup](#quarto-website-setup)
-  - [1. _quarto.yml](#1-_quarto.yml)
+  - [1. quarto.yml](#1-quartoyml)
   - [2. .qmd files](#2-qmd-files)
     - [Simple Pages](#simple-pages)
       - [YAML Front Matter](#yaml-front-matter)
@@ -26,7 +28,8 @@ This is the code for STRIDE-Lab website that can be accessed here: https://ineic
   - [Notes](#notes)
 - [Reference GitHub Pages](#reference-github-pages)
 
-## 1. _quarto.yml
+# Quarto Website Setup
+## 1. quarto.yml
 Every website has a [_quarto.yml](quarto_docs%2F_quarto.yml) config file that provides website options as well as defaults for HTML documents created within the site, e.g.:
   - the project type (website)
   - website navigation (top or side navigation bars, page footer etc.), see [docu](https://quarto.org/docs/websites/website-navigation.html)
@@ -233,12 +236,18 @@ If you want to modify a single file with simple changes, e.g. adding a few new s
 **locally, for bigger changes (with preview)**
 
 To make bigger changes, it's recommended to work with a local copy of the repository where one can look at a preview of the website before deploying. 
-There are many ways to work with Quarto and a common one is using RStudio s. [GetStarted with Quarto](https://quarto.org/docs/get-started/hello/rstudio.html). Here, are the basics steps to get started with a local copy, either setup via Terminal + RStudio or via GitHub Desktop + RStudio. 
+There are many ways to work with Quarto and a common one is using RStudio s. [GetStarted with Quarto](https://quarto.org/docs/get-started/hello/rstudio.html). Here, are the basics steps to get started with a local copy, either setup via Terminal + RStudio or via GitHub Desktop + RStudio.
 
 ### Setup local git repository
 * Create a GitHub account and be added to the STRIDE-Lab organisation
-* Install [R and R-Studio](https://posit.co/download/rstudio-desktop/)
+  > GitHub is an online platform that stores projects, tracks changes, and lets people collaborate safely. The code of this website is safed on GitHub and is also automatically built and published via GitHub.
 
+* Install [R and R-Studio](https://posit.co/download/rstudio-desktop/)
+  > This website is built with Quarto, a tool based on the programming language R. RStudio is user-friendly application that makes writing and running R code easier. Hence, RStudio can be used to make changes to the website and look at a local copy of the website before publishing it. 
+  
+* Install GitHub Desktop in case you don't wanna use git in the terminal.
+  > GitHub Desktop is an app that lets you easily work with GitHub projects on your laptop and fetch the latest updates from online and send your changes back.
+  
 #### Setup via Terminal + R-Studio
 * Clone the repository:
   1. If not already authenticated, make sure you have a connection to the GitHub repository via the terminal. Here an example for authentication via a personal access token:
@@ -251,8 +260,8 @@ There are many ways to work with Quarto and a common one is using RStudio s. [Ge
     ```bash
     git clone https://github.com/Ineichen-Group/website.git
     ```
-  3. Open as project the folder of containing the website content in R-Studio.
-  4. Be sure that you have installed the tidyverse and palmerpenguins packages. Additionally, we use the leaflet package to display the map of Zurich in Contacts page:
+  3. Open the folder `quarto_docs` as a project in RStudio (File > New Project...)
+  4. Be sure that you have installed the tidyverse and palmerpenguins packages (Files window > Packages > Install). Additionally, we use the leaflet package to display the map of Zurich in Contacts page:
   ```
   install.packages("tidyverse")
   install.packages("palmerpenguins")
@@ -261,23 +270,31 @@ There are many ways to work with Quarto and a common one is using RStudio s. [Ge
 
 #### Setup via GitHub Desktop + RStudio
   1. Download [GitHub Desktop](https://desktop.github.com/download/) & login to your account
-  2. Select "Clone a repository from the Internet" and choose "Ineichen-Group/website". (On windows, the cloned repositories are saved in <user>\Documents\GitHub)
-  3. Under "Select your editor in Options" choose "R-Studio" > "Open in RStudio"
-  4. Be sure that you have installed the tidyverse and palmerpenguins packages. Additionally, we use the leaflet package to display the map of Zurich in Contacts page. Therefore, open "Packages" > "Packages (separated multiple with space or comma" and paste `tidyverse palmerpenguins leaflet` and then "Install"
+  2. Select "Clone a repository from the Internet" and choose "Ineichen-Group/website". (On windows, the cloned repositories are saved in <user>\Documents\GitHub as default)
+  3. Open RStudio, open the folder `quarto_docs` as a project in RStudio (File > New Project...)
+  4. Be sure that you have installed the tidyverse and palmerpenguins packages (Files window > Packages > Install). Additionally, we use the leaflet package to display the map of Zurich in Contacts page. Therefore, open "Packages" > "Packages (separated multiple with space or comma" and paste `tidyverse palmerpenguins leaflet` and then "Install"
 
 
 ### Make changes
-  1. Make the needed updates, e.g., by opening a .qmd file in RStudio or creating a new folder and adding new files.
-  2. Test the changes by running from the button "Render" or with the command in the Console:
-  ```
-  quarto::quarto_preview()
-  ```
+  1. First get the newest version of the website (other people might have made changes in the mean time)
+     * via Terminal: `git pull`
+     * via GitHub Desktop: press pull origin
+  2. Make the needed updates, e.g., by opening a .qmd file in RStudio or creating a new folder and adding new files.
+  3. Test the changes by 
+     * by running from the button "Render" to show the current .qmd file only
+     * by pressing Build > Render Website to show the entire website
+     * by with the command in the Console:
+        ```
+        quarto::quarto_preview()
+        ```
   **Please make sure you test the change locally before committing! You can get more detailed error messages and it is easier to debug compared to the GitHub Actions log.**
 
 The easiest approach for adding new content for news, people, publications and research areas is to duplicate the folder of an existing element, rename it, and modify its contents as needed.
 As long as the keys in the new .qmd file remain unchanged and only the values are modified, the element will be read correctly.
 
 #### Adding Publications
+Copy an existing publication folder and then adjust.
+
 When adding a new publication, we would need to update these elements:
 
 - **title**: The title of the publication.
@@ -307,7 +324,7 @@ pub_number: 11
 ```
 
 #### Adding People
-
+Copy an existing person folder and then adjust.
 When adding a new person, we would need to update these elements:
 - **Title, Last, First, and Author ID**: Update with the new person's full name and unique identifier. The unique identifier should be the same used in the authors list of publications.
 - **Subtitle**: Enter the person's current job title or role.  
