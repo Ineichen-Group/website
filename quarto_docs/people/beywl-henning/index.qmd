@@ -3,7 +3,7 @@ title: &TITLE Beywl Henning
 last: Beywl
 first: Henning
 subtitle: "Data Scientist/Engineer"
-people_group: "master-thesis"
+people_group: "other-research-personell"
 email: "henning.beywl@insel.ch"
 education:
   - M.A. Computational Linguistics and Language Technology | University of Zurich
