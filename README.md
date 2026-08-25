@@ -281,8 +281,7 @@ There are many ways to work with Quarto and a common one is using RStudio s. [Ge
      * via GitHub Desktop: press pull origin
   2. Make the needed updates, e.g., by opening a .qmd file in RStudio or creating a new folder and adding new files.
   3. Test the changes by 
-     * by running from the button "Render" to show the current .qmd file only
-     * by pressing Build > Render Website to show the entire website
+     * by running from the button "Render"
      * by with the command in the Console:
         ```
         quarto::quarto_preview()
