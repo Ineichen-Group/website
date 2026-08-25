@@ -34,7 +34,7 @@ about:
 <hr>
 
 ::: {#about}
-Vera holds a Master’s degree in Computational Linguistics & Language Technology and Informatics from the University of Zurich. She is passionate about making large amounts of data accessible using NLP techniques and large language models, and enjoys bringing together different perspectives and fields of research. At the STRIDE lab, she contributes to automatically classifying and detecting entities in biomedical text, while also developing full-stack web applications to share these results with the public. 
+Lara holds a Master’s degree in Computational Linguistics & Language Technology and Informatics from the University of Zurich. She is passionate about making large amounts of data accessible using NLP techniques and large language models, and enjoys bringing together different perspectives and fields of research. At the STRIDE lab, she contributes to automatically classifying and detecting entities in biomedical text, while also developing full-stack web applications to share these results with the public.
 
 Outside the lab, Vera enjoys dancing and working out with her Team Aerobic group, hosting board game nights, and volunteering as a train attendant on vintage trams.
 
