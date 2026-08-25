@@ -3,8 +3,6 @@ project:
 
 website:
   title: "STRIDE-Lab"
-  head: |
-    <meta name="google-site-verification" content="PUCqBX7x85CnsdPs12cXuZI8GVPnU2wJ0qxQY0KvTb0" />
   site-url: "https://ineichen-group.github.io/website/"
   favicon: images/fav_icon_stride.png
   image: images/preview.png
