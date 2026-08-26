@@ -61,8 +61,7 @@ website:
 
 format:
   html:
-    includes:
-      in-header: header.html
+    include-in-header: header.html
     theme: 
       - styles.css
       - cosmo
