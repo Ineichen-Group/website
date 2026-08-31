@@ -3,7 +3,7 @@ title: &TITLE Vera Bernhard
 last: Bernhard
 first: Vera
 subtitle: "Data Scientist"
-people_group: "other-research-personell"
+people_group: "alumni"
 email: "veralara.bernhard@uzh.ch"
 education:
   - M.A. Computational Linguistics & Language Technology and Informatics | University of Zurich <br> B.A. Computational Linguistics & Language Technology and Comparative Linguistics | University of Zurich
@@ -28,7 +28,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:vera.bernhard@unibe.ch 
+      href: mailto:vera.l.bernhard@bluewin.ch 
 ---
 
 <hr>
